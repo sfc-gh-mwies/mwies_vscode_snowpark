@@ -1,0 +1,3 @@
+[debug] not up to date. inChanged = true, force = false
+[debug] Updating ProjectRef(uri("file:/Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/project/project/"), "hello-snowpark-build-build")...
+[debug] Done updating ProjectRef(uri("file:/Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/project/project/"), "hello-snowpark-build-build")

@@ -1,0 +1,969 @@
+[0m2021.08.25 15:29:20 INFO  Started: Metals version 0.10.5 in workspace '/Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark' for client Visual Studio Code 1.58.2.[0m
+[0m2021.08.25 15:29:21 INFO  time: initialize in 1.34s[0m
+[0m2021.08.25 15:29:21 WARN  Build server is not auto-connectable.[0m
+[0m2021.08.25 15:29:28 INFO  running '/Library/Java/JavaVirtualMachines/jdk-11.0.11.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/metals17746332629599487948/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.08.25 15:29:29 WARN  no build target for: /Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/project/metals.sbt[0m
+[0m2021.08.25 15:29:29 WARN  no build target for: /Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/project/project/metals.sbt[0m
+[0m2021.08.25 15:29:29 INFO  skipping build import with status 'Started'[0m
+[0m2021.08.25 15:29:29 ERROR [info] [launcher] getting org.scala-sbt sbt 1.5.5  (this may take some time)...[0m
+[0m2021.08.25 15:29:32 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/sbt/1.5.5/sbt-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.14/scala-library-2.12.14.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.5.5/logic_2.12-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.5.1/io_2.12-1.5.1.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.5.5/main_2.12-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.5.5/actions_2.12-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.5.5/main-settings_2.12-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/run_2.12/1.5.5/run_2.12-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/command_2.12/1.5.5/command_2.12-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.5.5/collections_2.12-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.5.5/scripted-plugin_2.12-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-lm-integration_2.12/1.5.5/zinc-lm-integration_2.12-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR :: loading settings :: url = jar:file:/private/var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/metals17746332629599487948/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.08.25 15:29:34 ERROR :: loading settings :: url = jar:file:/private/var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/metals17746332629599487948/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.08.25 15:29:34 ERROR :: loading settings :: url = jar:file:/private/var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/metals17746332629599487948/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.08.25 15:29:34 ERROR :: loading settings :: url = jar:file:/private/var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/metals17746332629599487948/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.08.25 15:29:34 ERROR :: loading settings :: url = jar:file:/private/var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/metals17746332629599487948/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.08.25 15:29:34 ERROR :: loading settings :: url = jar:file:/private/var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/metals17746332629599487948/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.08.25 15:29:34 ERROR :: loading settings :: url = jar:file:/private/var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/metals17746332629599487948/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.08.25 15:29:34 ERROR :: loading settings :: url = jar:file:/private/var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/metals17746332629599487948/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.08.25 15:29:34 ERROR :: loading settings :: url = jar:file:/private/var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/metals17746332629599487948/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.08.25 15:29:34 ERROR :: loading settings :: url = jar:file:/private/var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/metals17746332629599487948/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.08.25 15:29:34 ERROR :: loading settings :: url = jar:file:/private/var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/metals17746332629599487948/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.08.25 15:29:34 ERROR :: loading settings :: url = jar:file:/private/var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/metals17746332629599487948/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#logic_2.12;1.5.5!logic_2.12.jar (110ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.5.5/util-logging_2.12-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#scripted-plugin_2.12;1.5.5!scripted-plugin_2.12.jar (256ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.3.3/launcher-interface-1.3.3.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-lm-integration_2.12;1.5.5!zinc-lm-integration_2.12.jar (327ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/io/get-coursier/lm-coursier-shaded_2.12/2.0.8/lm-coursier-shaded_2.12-2.0.8.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#sbt;1.5.5!sbt.jar (381ms)[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#run_2.12;1.5.5!run_2.12.jar (379ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.5.3/librarymanagement-core_2.12-1.5.3.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.5.3/librarymanagement-ivy_2.12-1.5.3.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#launcher-interface;1.3.3!launcher-interface.jar (161ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.5.7/compiler-interface-1.5.7.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#collections_2.12;1.5.5!collections_2.12.jar (425ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.5.7/zinc-compile_2.12-1.5.7.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#command_2.12;1.5.5!command_2.12.jar (426ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.5.5/util-relation_2.12-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#actions_2.12;1.5.5!actions_2.12.jar (431ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.5.5/util-position_2.12-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-logging_2.12;1.5.5!util-logging_2.12.jar (415ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.14/scala-reflect-2.12.14.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-compile_2.12;1.5.7!zinc-compile_2.12.jar (125ms)[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-position_2.12;1.5.5!util-position_2.12.jar (122ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.5.5/task-system_2.12-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.5.5/completion_2.12-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#compiler-interface;1.5.7!compiler-interface.jar (175ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/tasks_2.12/1.5.5/tasks_2.12-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-relation_2.12;1.5.5!util-relation_2.12.jar (183ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.5.5/testing_2.12-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-ivy_2.12;1.5.3!librarymanagement-ivy_2.12.jar (239ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.5.5/util-tracking_2.12-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#io_2.12;1.5.1!io_2.12.jar (624ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.5.7/zinc-classpath_2.12-1.5.7.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-core_2.12;1.5.3!librarymanagement-core_2.12.jar (245ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.5.7/zinc-apiinfo_2.12-1.5.7.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#main-settings_2.12;1.5.5!main-settings_2.12.jar (669ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.5.7/zinc_2.12-1.5.7.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#completion_2.12;1.5.5!completion_2.12.jar (127ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.5.5/util-control_2.12-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#task-system_2.12;1.5.5!task-system_2.12.jar (134ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.5.5/util-interface-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-tracking_2.12;1.5.5!util-tracking_2.12.jar (111ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.5.5/core-macros_2.12-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#tasks_2.12;1.5.5!tasks_2.12.jar (137ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.14/scala-compiler-2.12.14.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-classpath_2.12;1.5.7!zinc-classpath_2.12.jar (123ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.5.5/util-cache_2.12-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#testing_2.12;1.5.5!testing_2.12.jar (171ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.5.5/test-agent-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-interface;1.5.5!util-interface.jar (95ms)[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-control_2.12;1.5.5!util-control_2.12.jar (103ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.5.7/compiler-bridge_2.12-1.5.7.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.5.7/zinc-classfile_2.12-1.5.7.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#core-macros_2.12;1.5.5!core-macros_2.12.jar (110ms)[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc_2.12;1.5.7!zinc_2.12.jar (173ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.5.7/zinc-core_2.12-1.5.7.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.5.7/zinc-persist_2.12-1.5.7.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-apiinfo_2.12;1.5.7!zinc-apiinfo_2.12.jar (230ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.5.7/zinc-compile-core_2.12-1.5.7.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-classfile_2.12;1.5.7!zinc-classfile_2.12.jar (131ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.5.7/zinc-persist-core-assembly-1.5.7.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-cache_2.12;1.5.5!util-cache_2.12.jar (171ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.5.5/protocol_2.12-1.5.5.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#test-agent;1.5.5!test-agent.jar (145ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.3.1/ipcsocket-1.3.1.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#compiler-bridge_2.12;1.5.7!compiler-bridge_2.12.jar (204ms)[0m
+[0m2021.08.25 15:29:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.4.2/scala-collection-compat_2.12-2.4.2.jar ...[0m
+[0m2021.08.25 15:29:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-persist_2.12;1.5.7!zinc-persist_2.12.jar (155ms)[0m
+[0m2021.08.25 15:29:35 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-compile-core_2.12;1.5.7!zinc-compile-core_2.12.jar (159ms)[0m
+[0m2021.08.25 15:29:35 ERROR 	[SUCCESSFUL ] org.scala-sbt.ipcsocket#ipcsocket;1.3.1!ipcsocket.jar (166ms)[0m
+[0m2021.08.25 15:29:35 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-core_2.12;1.5.7!zinc-core_2.12.jar (282ms)[0m
+[0m2021.08.25 15:29:35 ERROR 	[SUCCESSFUL ] org.scala-lang.modules#scala-collection-compat_2.12;2.4.2!scala-collection-compat_2.12.jar (151ms)[0m
+[0m2021.08.25 15:29:35 ERROR 	[SUCCESSFUL ] org.scala-sbt#protocol_2.12;1.5.5!protocol_2.12.jar (235ms)[0m
+[0m2021.08.25 15:29:35 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.14!scala-reflect.jar (759ms)[0m
+[0m2021.08.25 15:29:35 ERROR 	[SUCCESSFUL ] org.scala-sbt#main_2.12;1.5.5!main_2.12.jar (1393ms)[0m
+[0m2021.08.25 15:29:35 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.14!scala-library.jar (1740ms)[0m
+[0m2021.08.25 15:29:35 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-persist-core-assembly;1.5.7!zinc-persist-core-assembly.jar (893ms)[0m
+[0m2021.08.25 15:29:36 ERROR 	[SUCCESSFUL ] io.get-coursier#lm-coursier-shaded_2.12;2.0.8!lm-coursier-shaded_2.12.jar (1914ms)[0m
+[0m2021.08.25 15:29:36 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.14!scala-compiler.jar (2003ms)[0m
+[0m2021.08.25 15:29:36 ERROR :: retrieving :: org.scala-sbt#boot-app[0m
+[0m2021.08.25 15:29:36 ERROR 	confs: [default][0m
+[0m2021.08.25 15:29:36 ERROR 	83 artifacts copied, 0 already retrieved[0m
+[0m2021.08.25 15:29:36 ERROR [info] [launcher] getting Scala 2.12.14 (for sbt)...[0m
+[0m2021.08.25 15:29:36 ERROR :: retrieving :: org.scala-sbt#boot-scala[0m
+[0m2021.08.25 15:29:36 ERROR 	confs: [default][0m
+[0m2021.08.25 15:29:36 ERROR 	6 artifacts copied, 0 already retrieved[0m
+[0m2021.08.25 15:29:38 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 11.0.11)[0m
+[0m2021.08.25 15:29:39 INFO  [info] loading settings for project hello-snowpark-build-build from metals.sbt ...[0m
+[0m2021.08.25 15:29:39 INFO  [info] loading project definition from /Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/project/project[0m
+[0m2021.08.25 15:29:42 INFO  [info] loading settings for project hello-snowpark-build from metals.sbt ...[0m
+[0m2021.08.25 15:29:42 INFO  [info] loading project definition from /Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/project[0m
+[0m2021.08.25 15:29:46 INFO  [success] Generated .bloop/hello-snowpark-build.json[0m
+[0m2021.08.25 15:29:46 INFO  [success] Total time: 3 s, completed Aug 25, 2021, 3:29:46 PM[0m
+[0m2021.08.25 15:29:47 INFO  [info] loading settings for project hello-snowpark from build.sbt ...[0m
+[0m2021.08.25 15:29:47 INFO  [info] set current project to hello-world (in build file:/Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/)[0m
+[0m2021.08.25 15:29:47 INFO  [success] Generated .bloop/hello-snowpark-test.json[0m
+[0m2021.08.25 15:29:47 INFO  [success] Generated .bloop/hello-snowpark.json[0m
+[0m2021.08.25 15:29:47 INFO  [success] Total time: 0 s, completed Aug 25, 2021, 3:29:47 PM[0m
+[0m2021.08.25 15:29:47 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.08.25 15:29:47 INFO  time: ran 'sbt bloopInstall' in 19s[0m
+[0m2021.08.25 15:29:47 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/bsp-launcher10204958495960770271/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from '/Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/.bloop/hello-snowpark.json'
+[0m[32m[D][0m Loading project from '/Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/.bloop/hello-snowpark-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => /Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.15.0/jline-3.15.0.jar
+[0m[32m[D][0m   => /Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.3/scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => /Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar
+[0m[32m[D][0m   => /Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.3/scala-reflect-2.13.3.jar
+[0m[32m[D][0m Missing analysis file for project 'hello-snowpark'
+[0m[32m[D][0m Missing analysis file for project 'hello-snowpark-test'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/bsp-launcher10204958495960770271/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/bsp-launcher10204958495960770271/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.08.25 15:29:51 INFO  tracing is enabled: /Users/mwies/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.08.25 15:29:53 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/bsp-launcher18008223822941445107/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/bsp-launcher18008223822941445107/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/bsp-launcher18008223822941445107/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.08.25 15:29:53 INFO  tracing is enabled: /Users/mwies/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.08.25 15:29:53 INFO  time: Connected to build server in 6.3s[0m
+[0m2021.08.25 15:29:53 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.08.25 15:29:57 INFO  time: indexed workspace in 3.55s[0m
+[0m2021.08.25 15:32:16 INFO  running '/Library/Java/JavaVirtualMachines/jdk-11.0.11.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/metals10723170020501564854/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.08.25 15:32:18 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 11.0.11)[0m
+[0m2021.08.25 15:32:18 INFO  [info] loading settings for project hello-snowpark-build-build from metals.sbt ...[0m
+[0m2021.08.25 15:32:19 INFO  [info] loading project definition from /Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/project/project[0m
+[0m2021.08.25 15:32:19 INFO  [info] loading settings for project hello-snowpark-build from metals.sbt ...[0m
+[0m2021.08.25 15:32:19 INFO  [info] loading project definition from /Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/project[0m
+[0m2021.08.25 15:32:22 INFO  [success] Generated .bloop/hello-snowpark-build.json[0m
+[0m2021.08.25 15:32:22 INFO  [success] Total time: 2 s, completed Aug 25, 2021, 3:32:22 PM[0m
+[0m2021.08.25 15:32:24 INFO  [info] loading settings for project hello-snowpark from build.sbt ...[0m
+[0m2021.08.25 15:32:24 INFO  [info] set current project to hello-world (in build file:/Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/)[0m
+[0m2021.08.25 15:32:27 INFO  [success] Generated .bloop/hello-snowpark.json[0m
+[0m2021.08.25 15:32:27 INFO  [success] Generated .bloop/hello-snowpark-test.json[0m
+[0m2021.08.25 15:32:27 INFO  [success] Total time: 3 s, completed Aug 25, 2021, 3:32:27 PM[0m
+[0m2021.08.25 15:32:27 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.08.25 15:32:28 INFO  time: ran 'sbt bloopInstall' in 11s[0m
+[0m2021.08.25 15:32:28 INFO  Disconnecting from Bloop session...[0m
+[0m2021.08.25 15:32:28 INFO  Shut down connection with build server.[0m
+[0m2021.08.25 15:32:28 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.08.25 15:32:28 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/bsp-launcher12960812252669691867/bsp.socket'...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/.bloop/hello-snowpark-test.json'
+[0m[32m[D][0m Loading project from '/Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/.bloop/hello-snowpark.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.13.
+[0m[32m[D][0m   => /Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar
+[0m[32m[D][0m   => /Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar
+[0m[32m[D][0m   => /Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => /Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.13/scala-compiler-2.12.13.jar
+[0m[32m[D][0m   => /Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar
+[0m[32m[D][0m   => /Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.13/scala-reflect-2.12.13.jar
+[0m[32m[D][0m Resolving org.scalameta:semanticdb-scalac_2.12.13:4.4.24
+[0m[32m[D][0m Configured SemanticDB in projects 'hello-snowpark-test', 'hello-snowpark'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/bsp-launcher12960812252669691867/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/bsp-launcher12960812252669691867/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.08.25 15:32:29 INFO  tracing is enabled: /Users/mwies/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.08.25 15:32:29 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/bsp-launcher1581667934041230115/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/bsp-launcher1581667934041230115/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/vh/njp48rxn0t344scnvt2rk58w0000gp/T/bsp-launcher1581667934041230115/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.08.25 15:32:29 INFO  tracing is enabled: /Users/mwies/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.08.25 15:32:29 INFO  time: Connected to build server in 1.36s[0m
+[0m2021.08.25 15:32:29 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.08.25 15:32:31 INFO  compiling hello-snowpark (1 scala source)[0m
+[0m2021.08.25 15:32:32 INFO  time: indexed workspace in 2.8s[0m
+[0m2021.08.25 15:32:31 INFO  Deduplicating compilation of hello-snowpark from bsp client 'Metals 0.10.5' (since 2.909s)[0m
+[0m2021.08.25 15:32:31 INFO  compiling hello-snowpark (1 scala source)[0m
+[0m2021.08.25 15:32:35 INFO  time: compiled hello-snowpark in 3.09s[0m
+[0m2021.08.25 15:33:32 INFO  compiling hello-snowpark (1 scala source)[0m
+[0m2021.08.25 15:33:33 INFO  time: compiled hello-snowpark in 1.1s[0m
+[0m2021.08.25 15:34:24 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mwies/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+[0m2021.08.25 15:34:24 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mwies/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+[0m2021.08.25 15:34:24 INFO  Starting debug proxy for [Main][0m
+[0m2021.08.25 15:34:25 INFO  Listening for transport dt_socket at address: 50652[0m
+[0m2021.08.25 15:34:25 INFO  Trying to attach to remote debuggee VM localhost:50652 .[0m
+[0m2021.08.25 15:34:25 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.08.25 15:34:25 ERROR [main] INFO com.snowflake.snowpark.Session - Closing stderr and redirecting to stdout[0m
+[0m2021.08.25 15:34:25 INFO  [main] INFO com.snowflake.snowpark.Session - Done closing stderr and redirecting to stdout[0m
+[0m2021.08.25 15:34:28 INFO  [main] INFO com.snowflake.snowpark.Session - Snowpark Session information: {[0m
+[0m2021.08.25 15:34:28 INFO   "snowpark.version" : "0.8.0",[0m
+[0m2021.08.25 15:34:28 INFO   "java.version" : "11.0.11",[0m
+[0m2021.08.25 15:34:28 INFO   "scala.version" : "2.12.13",[0m
+[0m2021.08.25 15:34:28 INFO   "jdbc.session.id" : "11902226260756214",[0m
+[0m2021.08.25 15:34:28 INFO   "os.name" : "Mac OS X",[0m
+[0m2021.08.25 15:34:28 INFO   "jdbc.version" : "3.13.3",[0m
+[0m2021.08.25 15:34:28 INFO   "snowpark.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/snowflake/snowpark/0.8.0/snowpark-0.8.0.jar",[0m
+[0m2021.08.25 15:34:28 INFO   "scala.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar",[0m
+[0m2021.08.25 15:34:28 INFO   "jdbc.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/snowflake/snowflake-jdbc/3.13.3/snowflake-jdbc-3.13.3.jar"[0m
+[0m2021.08.25 15:34:28 INFO  }[0m
+[0m2021.08.25 15:34:28 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Actively querying parameter snowpark_lazy_analysis from server.[0m
+[0m2021.08.25 15:34:30 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e8296-0400-a061-002a-49030052ec6e] show tables[0m
+[0m2021.08.25 15:34:30 INFO  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[0m2021.08.25 15:34:30 INFO  |"created_on"             |"name"                |"database_name"  |"schema_name"  |"kind"  |"comment"  |"cluster_by"  |"rows"  |"bytes"  |"owner"       |"retention_time"  |"automatic_clustering"  |"change_tracking"  |"search_optimization"  |"search_optimization_progress"  |"search_optimization_bytes"  |"is_external"  |[0m
+[0m2021.08.25 15:34:30 INFO  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[0m2021.08.25 15:34:30 INFO  |2021-07-13 12:51:22.248  |CUSTOMER_MASTER       |COMMON           |PUBLIC         |TABLE   |           |              |0       |0        |ACCOUNTADMIN  |1                 |OFF                     |OFF                |OFF                    |NULL                            |NULL                         |N              |[0m
+[0m2021.08.25 15:34:30 INFO  |2021-08-11 10:26:47.985  |DEMO_JSON             |COMMON           |PUBLIC         |TABLE   |           |              |1       |4096     |SYSADMIN      |1                 |OFF                     |OFF                |OFF                    |NULL                            |NULL                         |N              |[0m
+[0m2021.08.25 15:34:30 INFO  |2021-08-11 10:28:54.332  |GBFS_JSON             |COMMON           |PUBLIC         |TABLE   |           |              |3       |760832   |SYSADMIN      |1                 |OFF                     |OFF                |OFF                    |NULL                            |NULL                         |N              |[0m
+[0m2021.08.25 15:34:30 INFO  |2021-08-11 10:30:59.405  |NEIGHBORHOODS         |COMMON           |PUBLIC         |TABLE   |           |              |310     |1894912  |SYSADMIN      |1                 |OFF                     |OFF                |OFF                    |NULL                            |NULL                         |N              |[0m
+[0m2021.08.25 15:34:30 INFO  |2021-08-11 10:30:33.458  |REGION_JSON           |COMMON           |PUBLIC         |TABLE   |           |              |7       |2560     |SYSADMIN      |1                 |OFF                     |OFF                |OFF                    |NULL                            |NULL                         |N              |[0m
+[0m2021.08.25 15:34:30 INFO  |2021-08-11 10:38:35.599  |REPORT_1              |COMMON           |PUBLIC         |TABLE   |           |              |100     |8704     |SYSADMIN      |1                 |OFF                     |OFF                |OFF                    |NULL                            |NULL                         |N              |[0m
+[0m2021.08.25 15:34:30 INFO  |2021-08-11 10:38:32.54   |REPORT_2              |COMMON           |PUBLIC         |TABLE   |           |              |1000    |52224    |SYSADMIN      |1                 |OFF                     |OFF                |OFF                    |NULL                            |NULL                         |N              |[0m
+[0m2021.08.25 15:34:30 INFO  |2021-08-11 10:38:29.273  |REPORT_3              |COMMON           |PUBLIC         |TABLE   |           |              |100     |9216     |SYSADMIN      |1                 |OFF                     |OFF                |OFF                    |NULL                            |NULL                         |N              |[0m
+[0m2021.08.25 15:34:30 INFO  |2021-08-11 10:30:41.437  |STATION_JSON_LATLONG  |COMMON           |PUBLIC         |TABLE   |           |              |1570    |222720   |SYSADMIN      |1                 |OFF                     |OFF                |OFF                    |NULL                            |NULL                         |N              |[0m
+[0m2021.08.25 15:34:30 INFO  |2021-06-27 17:53:16.848  |TEST_TABLE            |COMMON           |PUBLIC         |TABLE   |           |              |NULL    |0        |ACCOUNTADMIN  |1                 |OFF                     |OFF                |OFF                    |NULL                            |NULL                         |Y              |[0m
+[0m2021.08.25 15:34:30 INFO  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[0m2021.08.25 15:34:30 INFO  [0m
+[0m2021.08.25 15:34:30 INFO  Canceling debug proxy for [Main][0m
+Aug 25, 2021 3:41:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 23 is not a valid line number, allowed [0..21]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 23 is not a valid line number, allowed [0..21]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: 23 is not a valid line number, allowed [0..21]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:70)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+[0m2021.08.25 15:51:21 INFO  Deduplicating compilation of hello-snowpark from bsp client 'Metals 0.10.5' (since 18m 52.487s)[0m
+[0m2021.08.25 15:51:21 INFO  compiling hello-snowpark (1 scala source)[0m
+[0m2021.08.25 15:51:21 INFO  compiling hello-snowpark (1 scala source)[0m
+[0m2021.08.25 15:51:21 INFO  time: compiled hello-snowpark in 0.32s[0m
+[0m2021.08.25 15:51:23 INFO  compiling hello-snowpark (1 scala source)[0m
+[0m2021.08.25 15:51:23 INFO  time: compiled hello-snowpark in 0.18s[0m
+Aug 25, 2021 3:51:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:237)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:229)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+[0m2021.08.25 15:51:24 INFO  compiling hello-snowpark (1 scala source)[0m
+[0m2021.08.25 15:51:24 INFO  time: compiled hello-snowpark in 0.17s[0m
+[0m2021.08.25 15:51:28 INFO  compiling hello-snowpark (1 scala source)[0m
+[0m2021.08.25 15:51:28 INFO  time: compiled hello-snowpark in 0.15s[0m
+[0m2021.08.25 15:52:09 INFO  compiling hello-snowpark (1 scala source)[0m
+[0m2021.08.25 15:52:09 INFO  time: compiled hello-snowpark in 0.74s[0m
+[0m2021.08.25 15:52:13 INFO  Deduplicating compilation of hello-snowpark from bsp client 'Metals 0.10.5' (since 19m 43.802s)[0m
+[0m2021.08.25 15:52:15 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mwies/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+[0m2021.08.25 15:52:15 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mwies/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+[0m2021.08.25 15:52:15 INFO  Starting debug proxy for [Main][0m
+[0m2021.08.25 15:52:15 INFO  Listening for transport dt_socket at address: 51125[0m
+[0m2021.08.25 15:52:15 INFO  Trying to attach to remote debuggee VM localhost:51125 .[0m
+[0m2021.08.25 15:52:15 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.08.25 15:52:15 ERROR [main] INFO com.snowflake.snowpark.Session - Closing stderr and redirecting to stdout[0m
+[0m2021.08.25 15:52:15 INFO  [main] INFO com.snowflake.snowpark.Session - Done closing stderr and redirecting to stdout[0m
+[0m2021.08.25 15:52:18 INFO  [main] INFO com.snowflake.snowpark.Session - Snowpark Session information: {[0m
+[0m2021.08.25 15:52:18 INFO   "snowpark.version" : "0.8.0",[0m
+[0m2021.08.25 15:52:18 INFO   "java.version" : "11.0.11",[0m
+[0m2021.08.25 15:52:18 INFO   "scala.version" : "2.12.13",[0m
+[0m2021.08.25 15:52:18 INFO   "jdbc.session.id" : "11902226260748810",[0m
+[0m2021.08.25 15:52:18 INFO   "os.name" : "Mac OS X",[0m
+[0m2021.08.25 15:52:18 INFO   "jdbc.version" : "3.13.3",[0m
+[0m2021.08.25 15:52:18 INFO   "snowpark.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/snowflake/snowpark/0.8.0/snowpark-0.8.0.jar",[0m
+[0m2021.08.25 15:52:18 INFO   "scala.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar",[0m
+[0m2021.08.25 15:52:18 INFO   "jdbc.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/snowflake/snowflake-jdbc/3.13.3/snowflake-jdbc-3.13.3.jar"[0m
+[0m2021.08.25 15:52:18 INFO  }[0m
+[0m2021.08.25 15:52:18 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Actively querying parameter snowpark_lazy_analysis from server.[0m
+[0m2021.08.25 15:52:18 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82a8-0400-a061-002a-49030052ec8a] show tables[0m
+[0m2021.08.25 15:52:18 INFO  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[0m2021.08.25 15:52:18 INFO  |"created_on"             |"name"                |"database_name"  |"schema_name"  |"kind"  |"comment"  |"cluster_by"  |"rows"     |"bytes"     |"owner"       |"retention_time"  |"automatic_clustering"  |"change_tracking"  |"search_optimization"  |"search_optimization_progress"  |"search_optimization_bytes"  |"is_external"  |[0m
+[0m2021.08.25 15:52:18 INFO  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[0m2021.08.25 15:52:18 INFO  |2021-08-25 06:34:53.717  |GBFS_JSON             |CITIBIKE         |DEMO           |TABLE   |           |              |3          |761344      |DBA_CITIBIKE  |1                 |OFF                     |OFF                |OFF                    |NULL                            |NULL                         |N              |[0m
+[0m2021.08.25 15:52:18 INFO  |2021-08-25 06:35:13.885  |NEIGHBORHOODS         |CITIBIKE         |DEMO           |TABLE   |           |              |310        |1894912     |DBA_CITIBIKE  |1                 |OFF                     |OFF                |OFF                    |NULL                            |NULL                         |N              |[0m
+[0m2021.08.25 15:52:18 INFO  |2021-08-25 06:35:08.723  |REGION_JSON           |CITIBIKE         |DEMO           |TABLE   |           |              |7          |2560        |DBA_CITIBIKE  |1                 |OFF                     |OFF                |OFF                    |NULL                            |NULL                         |N              |[0m
+[0m2021.08.25 15:52:18 INFO  |2021-08-25 06:35:10.718  |STATION_JSON_LATLONG  |CITIBIKE         |DEMO           |TABLE   |           |              |1574       |223744      |DBA_CITIBIKE  |1                 |OFF                     |OFF                |OFF                    |NULL                            |NULL                         |N              |[0m
+[0m2021.08.25 15:52:18 INFO  |2021-08-25 06:36:05.141  |TRIPS                 |CITIBIKE         |DEMO           |TABLE   |           |              |118439021  |2383433216  |DBA_CITIBIKE  |1                 |OFF                     |ON                 |OFF                    |NULL                            |NULL                         |N              |[0m
+[0m2021.08.25 15:52:18 INFO  |2021-08-25 06:57:39.368  |TRIPS_DAILY           |CITIBIKE         |DEMO           |TABLE   |           |              |2882       |66048       |SYSADMIN      |1                 |OFF                     |OFF                |OFF                    |NULL                            |NULL                         |N              |[0m
+[0m2021.08.25 15:52:18 INFO  |2021-08-25 07:09:46.431  |TRIPS_DISTANCES       |CITIBIKE         |DEMO           |TABLE   |           |              |87653324   |1022184448  |SYSADMIN      |1                 |OFF                     |OFF                |OFF                    |NULL                            |NULL                         |N              |[0m
+[0m2021.08.25 15:52:18 INFO  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[0m2021.08.25 15:52:18 INFO  [0m
+[0m2021.08.25 15:52:18 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Actively querying parameter QUERY_TAG from server.[0m
+[0m2021.08.25 15:52:18 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82a8-0400-9ffe-002a-49030052cf82] alter session set query_tag = 'com.snowflake.snowpark.DataFrame.count[0m
+[0m2021.08.25 15:52:18 INFO  Main$.main(Main.scala:21)'[0m
+[0m2021.08.25 15:52:20 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82a8-0400-9ffe-002a-49030052cf8a] alter session set query_tag = 'com.snowflake.snowpark.DataFrame.count[0m
+[0m2021.08.25 15:52:20 INFO  Main$.main(Main.scala:21)'[0m
+[0m2021.08.25 15:52:23 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82a8-0400-a061-002a-49030052ec8e]  SELECT count(1) AS "COUNT(LITERAL())" FROM ( SELECT  *  FROM (trips_weather_vw)) LIMIT 1[0m
+[0m2021.08.25 15:52:23 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82a8-0400-a061-002a-49030052ec92] alter session unset query_tag[0m
+[0m2021.08.25 15:52:23 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82a8-0400-a061-002a-49030052ec96] alter session unset query_tag[0m
+[0m2021.08.25 15:52:23 INFO  Raw hourly trips count: 3515254571[0m
+[0m2021.08.25 15:52:23 INFO  Canceling debug proxy for [Main][0m
+[0m2021.08.25 15:54:39 INFO  compiling hello-snowpark (1 scala source)[0m
+[0m2021.08.25 15:54:39 INFO  time: compiled hello-snowpark in 0.2s[0m
+[0m2021.08.25 15:54:43 INFO  compiling hello-snowpark (1 scala source)[0m
+[0m2021.08.25 15:54:43 INFO  time: compiled hello-snowpark in 0.82s[0m
+[0m2021.08.25 15:55:24 INFO  compiling hello-snowpark (1 scala source)[0m
+[0m2021.08.25 15:55:26 INFO  time: compiled hello-snowpark in 1.33s[0m
+Exception in thread "pool-6-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[0m2021.08.25 15:55:54 INFO  compiling hello-snowpark (1 scala source)[0m
+[0m2021.08.25 15:55:54 INFO  time: compiled hello-snowpark in 0.95s[0m
+[0m2021.08.25 15:55:56 INFO  Deduplicating compilation of hello-snowpark from bsp client 'Metals 0.10.5' (since 23m 26.699s)[0m
+[0m2021.08.25 15:55:58 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mwies/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+[0m2021.08.25 15:55:58 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mwies/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+[0m2021.08.25 15:55:58 INFO  Starting debug proxy for [Main][0m
+[0m2021.08.25 15:55:58 INFO  Listening for transport dt_socket at address: 51254[0m
+[0m2021.08.25 15:55:58 INFO  Trying to attach to remote debuggee VM localhost:51254 .[0m
+[0m2021.08.25 15:55:58 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.08.25 15:55:58 ERROR [main] INFO com.snowflake.snowpark.Session - Closing stderr and redirecting to stdout[0m
+[0m2021.08.25 15:55:58 INFO  [main] INFO com.snowflake.snowpark.Session - Done closing stderr and redirecting to stdout[0m
+[0m2021.08.25 15:56:01 INFO  [main] INFO com.snowflake.snowpark.Session - Snowpark Session information: {[0m
+[0m2021.08.25 15:56:01 INFO   "snowpark.version" : "0.8.0",[0m
+[0m2021.08.25 15:56:01 INFO   "java.version" : "11.0.11",[0m
+[0m2021.08.25 15:56:01 INFO   "scala.version" : "2.12.13",[0m
+[0m2021.08.25 15:56:01 INFO   "jdbc.session.id" : "11902226260748826",[0m
+[0m2021.08.25 15:56:01 INFO   "os.name" : "Mac OS X",[0m
+[0m2021.08.25 15:56:01 INFO   "jdbc.version" : "3.13.3",[0m
+[0m2021.08.25 15:56:01 INFO   "snowpark.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/snowflake/snowpark/0.8.0/snowpark-0.8.0.jar",[0m
+[0m2021.08.25 15:56:01 INFO   "scala.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar",[0m
+[0m2021.08.25 15:56:01 INFO   "jdbc.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/snowflake/snowflake-jdbc/3.13.3/snowflake-jdbc-3.13.3.jar"[0m
+[0m2021.08.25 15:56:01 INFO  }[0m
+[0m2021.08.25 15:56:01 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Actively querying parameter snowpark_lazy_analysis from server.[0m
+[0m2021.08.25 15:56:01 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82ac-0400-9ffe-002a-49030052cf9e] show tables[0m
+[0m2021.08.25 15:56:01 INFO  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[0m2021.08.25 15:56:01 INFO  |"created_on"             |"name"                |"database_name"  |"schema_name"  |"kind"  |"comment"  |"cluster_by"  |"rows"     |"bytes"     |"owner"       |"retention_time"  |"automatic_clustering"  |"change_tracking"  |"search_optimization"  |"search_optimization_progress"  |"search_optimization_bytes"  |"is_external"  |[0m
+[0m2021.08.25 15:56:01 INFO  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[0m2021.08.25 15:56:01 INFO  |2021-08-25 06:34:53.717  |GBFS_JSON             |CITIBIKE         |DEMO           |TABLE   |           |              |3          |761344      |DBA_CITIBIKE  |1                 |OFF                     |OFF                |OFF                    |NULL                            |NULL                         |N              |[0m
+[0m2021.08.25 15:56:01 INFO  |2021-08-25 06:35:13.885  |NEIGHBORHOODS         |CITIBIKE         |DEMO           |TABLE   |           |              |310        |1894912     |DBA_CITIBIKE  |1                 |OFF                     |OFF                |OFF                    |NULL                            |NULL                         |N              |[0m
+[0m2021.08.25 15:56:01 INFO  |2021-08-25 06:35:08.723  |REGION_JSON           |CITIBIKE         |DEMO           |TABLE   |           |              |7          |2560        |DBA_CITIBIKE  |1                 |OFF                     |OFF                |OFF                    |NULL                            |NULL                         |N              |[0m
+[0m2021.08.25 15:56:01 INFO  |2021-08-25 06:35:10.718  |STATION_JSON_LATLONG  |CITIBIKE         |DEMO           |TABLE   |           |              |1574       |223744      |DBA_CITIBIKE  |1                 |OFF                     |OFF                |OFF                    |NULL                            |NULL                         |N              |[0m
+[0m2021.08.25 15:56:01 INFO  |2021-08-25 06:36:05.141  |TRIPS                 |CITIBIKE         |DEMO           |TABLE   |           |              |118439021  |2383433216  |DBA_CITIBIKE  |1                 |OFF                     |ON                 |OFF                    |NULL                            |NULL                         |N              |[0m
+[0m2021.08.25 15:56:01 INFO  |2021-08-25 06:57:39.368  |TRIPS_DAILY           |CITIBIKE         |DEMO           |TABLE   |           |              |2882       |66048       |SYSADMIN      |1                 |OFF                     |OFF                |OFF                    |NULL                            |NULL                         |N              |[0m
+[0m2021.08.25 15:56:01 INFO  |2021-08-25 07:09:46.431  |TRIPS_DISTANCES       |CITIBIKE         |DEMO           |TABLE   |           |              |87653324   |1022184448  |SYSADMIN      |1                 |OFF                     |OFF                |OFF                    |NULL                            |NULL                         |N              |[0m
+[0m2021.08.25 15:56:01 INFO  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[0m2021.08.25 15:56:01 INFO  [0m
+[0m2021.08.25 15:56:01 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Actively querying parameter QUERY_TAG from server.[0m
+[0m2021.08.25 15:56:01 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82ac-0400-a061-002a-49030052ec9e] alter session set query_tag = 'com.snowflake.snowpark.DataFrame.count[0m
+[0m2021.08.25 15:56:01 INFO  Main$.main(Main.scala:28)'[0m
+[0m2021.08.25 15:56:02 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82ac-0400-9ffe-002a-49030052cfaa] alter session set query_tag = 'com.snowflake.snowpark.DataFrame.count[0m
+[0m2021.08.25 15:56:02 INFO  Main$.main(Main.scala:28)'[0m
+[0m2021.08.25 15:56:05 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82ac-0400-9ffe-002a-49030052cfae]  SELECT count(1) AS "COUNT(LITERAL())" FROM ( SELECT  *  FROM (trips_weather_vw)) LIMIT 1[0m
+[0m2021.08.25 15:56:05 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82ac-0400-9ffe-002a-49030052cfb2] alter session unset query_tag[0m
+[0m2021.08.25 15:56:05 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82ac-0400-a061-002a-49030052eca2] alter session unset query_tag[0m
+[0m2021.08.25 15:56:05 INFO  Raw hourly trips count: 3515254571[0m
+[0m2021.08.25 15:56:05 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82ac-0400-9ffe-002a-49030052cfb6] alter session set query_tag = 'com.snowflake.snowpark.DataFrame.count[0m
+[0m2021.08.25 15:56:05 INFO  Main$.main(Main.scala:34)'[0m
+[0m2021.08.25 15:56:05 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82ac-0400-9ffe-002a-49030052cfba] alter session set query_tag = 'com.snowflake.snowpark.DataFrame.count[0m
+[0m2021.08.25 15:56:05 INFO  Main$.main(Main.scala:34)'[0m
+[0m2021.08.25 15:56:07 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82ac-0400-9ffe-002a-49030052cfbe]  SELECT count(1) AS "COUNT(LITERAL())" FROM ( SELECT "DAY", "COUNT" FROM ( SELECT "DAY", count(1) AS "COUNT" FROM ( SELECT DATE_TRUNC('day', "STARTTIME") AS "DAY" FROM ( SELECT  *  FROM (trips_weather_vw))) GROUP BY "DAY")) LIMIT 1[0m
+[0m2021.08.25 15:56:07 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82ac-0400-9ffe-002a-49030052cfc2] alter session unset query_tag[0m
+[0m2021.08.25 15:56:07 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82ac-0400-9ffe-002a-49030052cfc6] alter session unset query_tag[0m
+[0m2021.08.25 15:56:07 INFO  Aggregated daily trips count: 2882[0m
+[0m2021.08.25 15:56:12 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82ac-0400-9ffe-002a-49030052cfca]  SELECT  *  FROM ( SELECT "DAY", "COUNT" FROM ( SELECT "DAY", count(1) AS "COUNT" FROM ( SELECT DATE_TRUNC('day', "STARTTIME") AS "DAY" FROM ( SELECT  *  FROM (trips_weather_vw))) GROUP BY "DAY")) LIMIT 5[0m
+[0m2021.08.25 15:56:12 INFO  -----------------------------------[0m
+[0m2021.08.25 15:56:12 INFO  |"DAY"                  |"COUNT"  |[0m
+[0m2021.08.25 15:56:12 INFO  -----------------------------------[0m
+[0m2021.08.25 15:56:12 INFO  |2020-10-23 00:00:00.0  |8804000  |[0m
+[0m2021.08.25 15:56:12 INFO  |2020-10-19 00:00:00.0  |7428600  |[0m
+[0m2021.08.25 15:56:12 INFO  |2016-09-26 00:00:00.0  |62645    |[0m
+[0m2021.08.25 15:56:12 INFO  |2014-06-21 00:00:00.0  |30288    |[0m
+[0m2021.08.25 15:56:12 INFO  |2016-07-23 00:00:00.0  |38201    |[0m
+[0m2021.08.25 15:56:12 INFO  -----------------------------------[0m
+[0m2021.08.25 15:56:12 INFO  [0m
+[0m2021.08.25 15:56:18 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82ac-0400-9ffe-002a-49030052cfce]  CREATE  OR  REPLACE  TABLE trips_daily AS  SELECT  *  FROM ( SELECT "DAY", "COUNT" FROM ( SELECT "DAY", count(1) AS "COUNT" FROM ( SELECT DATE_TRUNC('day', "STARTTIME") AS "DAY" FROM ( SELECT  *  FROM (trips_weather_vw))) GROUP BY "DAY"))[0m
+[0m2021.08.25 15:56:18 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82ac-0400-9ffe-002a-49030052cfd2] alter session set query_tag = 'com.snowflake.snowpark.DataFrame.count[0m
+[0m2021.08.25 15:56:18 INFO  Main$.main(Main.scala:38)'[0m
+[0m2021.08.25 15:56:18 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82ac-0400-9ffe-002a-49030052cfd6] alter session set query_tag = 'com.snowflake.snowpark.DataFrame.count[0m
+[0m2021.08.25 15:56:18 INFO  Main$.main(Main.scala:38)'[0m
+[0m2021.08.25 15:56:18 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82ac-0400-9ffe-002a-49030052cfda]  SELECT count(1) AS "COUNT(LITERAL())" FROM ( SELECT  *  FROM (trips_daily)) LIMIT 1[0m
+[0m2021.08.25 15:56:19 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82ac-0400-9ffe-002a-49030052cfde] alter session unset query_tag[0m
+[0m2021.08.25 15:56:19 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82ac-0400-9ffe-002a-49030052cfe2] alter session unset query_tag[0m
+[0m2021.08.25 15:56:19 INFO  Aggregated daily trips count: 2882[0m
+[0m2021.08.25 15:56:19 INFO  Canceling debug proxy for [Main][0m
+[0m2021.08.25 15:56:32 INFO  compiling hello-snowpark (1 scala source)[0m
+[0m2021.08.25 15:56:32 INFO  time: compiled hello-snowpark in 0.88s[0m
+[0m2021.08.25 15:58:07 INFO  compiling hello-snowpark (1 scala source)[0m
+[0m2021.08.25 15:58:07 INFO  time: compiled hello-snowpark in 0.83s[0m
+[0m2021.08.25 15:58:09 INFO  Deduplicating compilation of hello-snowpark from bsp client 'Metals 0.10.5' (since 25m 40.223s)[0m
+[0m2021.08.25 15:58:11 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mwies/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+[0m2021.08.25 15:58:11 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mwies/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+[0m2021.08.25 15:58:11 INFO  Starting debug proxy for [Main][0m
+[0m2021.08.25 15:58:11 INFO  Listening for transport dt_socket at address: 51568[0m
+[0m2021.08.25 15:58:11 INFO  Trying to attach to remote debuggee VM localhost:51568 .[0m
+[0m2021.08.25 15:58:11 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.08.25 15:58:11 ERROR [main] INFO com.snowflake.snowpark.Session - Closing stderr and redirecting to stdout[0m
+[0m2021.08.25 15:58:11 INFO  [main] INFO com.snowflake.snowpark.Session - Done closing stderr and redirecting to stdout[0m
+[0m2021.08.25 15:58:15 INFO  [main] INFO com.snowflake.snowpark.Session - Snowpark Session information: {[0m
+[0m2021.08.25 15:58:15 INFO   "snowpark.version" : "0.8.0",[0m
+[0m2021.08.25 15:58:15 INFO   "java.version" : "11.0.11",[0m
+[0m2021.08.25 15:58:15 INFO   "scala.version" : "2.12.13",[0m
+[0m2021.08.25 15:58:15 INFO   "jdbc.session.id" : "11902226260748830",[0m
+[0m2021.08.25 15:58:15 INFO   "os.name" : "Mac OS X",[0m
+[0m2021.08.25 15:58:15 INFO   "jdbc.version" : "3.13.3",[0m
+[0m2021.08.25 15:58:15 INFO   "snowpark.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/snowflake/snowpark/0.8.0/snowpark-0.8.0.jar",[0m
+[0m2021.08.25 15:58:15 INFO   "scala.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar",[0m
+[0m2021.08.25 15:58:15 INFO   "jdbc.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/snowflake/snowflake-jdbc/3.13.3/snowflake-jdbc-3.13.3.jar"[0m
+[0m2021.08.25 15:58:15 INFO  }[0m
+[0m2021.08.25 15:58:15 INFO  Exception in thread "main" java.io.FileNotFoundException: File /Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/snowpark/lib/spark-core_2.12-3.0.0.jar not found[0m
+[0m2021.08.25 15:58:15 INFO  	at com.snowflake.snowpark.Session.addDependency(Session.scala:223)[0m
+[0m2021.08.25 15:58:15 INFO  	at Main$.main(Main.scala:43)[0m
+[0m2021.08.25 15:58:15 INFO  	at Main.main(Main.scala)[0m
+[0m2021.08.25 15:58:16 INFO  Canceling debug proxy for [Main][0m
+[0m2021.08.25 16:06:39 INFO  compiling hello-snowpark (1 scala source)[0m
+[0m2021.08.25 16:06:40 INFO  time: compiled hello-snowpark in 1.12s[0m
+[0m2021.08.25 16:06:43 INFO  Deduplicating compilation of hello-snowpark from bsp client 'Metals 0.10.5' (since 34m 14.076s)[0m
+[0m2021.08.25 16:06:45 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mwies/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+[0m2021.08.25 16:06:45 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mwies/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+[0m2021.08.25 16:06:45 INFO  Starting debug proxy for [Main][0m
+[0m2021.08.25 16:06:45 INFO  Listening for transport dt_socket at address: 51825[0m
+[0m2021.08.25 16:06:45 INFO  Trying to attach to remote debuggee VM localhost:51825 .[0m
+[0m2021.08.25 16:06:45 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.08.25 16:06:45 ERROR [main] INFO com.snowflake.snowpark.Session - Closing stderr and redirecting to stdout[0m
+[0m2021.08.25 16:06:45 INFO  [main] INFO com.snowflake.snowpark.Session - Done closing stderr and redirecting to stdout[0m
+[0m2021.08.25 16:06:48 INFO  [main] INFO com.snowflake.snowpark.Session - Snowpark Session information: {[0m
+[0m2021.08.25 16:06:48 INFO   "snowpark.version" : "0.8.0",[0m
+[0m2021.08.25 16:06:48 INFO   "java.version" : "11.0.11",[0m
+[0m2021.08.25 16:06:48 INFO   "scala.version" : "2.12.13",[0m
+[0m2021.08.25 16:06:48 INFO   "jdbc.session.id" : "11902226260756282",[0m
+[0m2021.08.25 16:06:48 INFO   "os.name" : "Mac OS X",[0m
+[0m2021.08.25 16:06:48 INFO   "jdbc.version" : "3.13.3",[0m
+[0m2021.08.25 16:06:48 INFO   "snowpark.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/snowflake/snowpark/0.8.0/snowpark-0.8.0.jar",[0m
+[0m2021.08.25 16:06:48 INFO   "scala.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar",[0m
+[0m2021.08.25 16:06:48 INFO   "jdbc.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/snowflake/snowflake-jdbc/3.13.3/snowflake-jdbc-3.13.3.jar"[0m
+[0m2021.08.25 16:06:48 INFO  }[0m
+[0m2021.08.25 16:06:48 INFO  [main] INFO com.snowflake.snowpark.UDFRegistration - Automatically added /Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/snowflake/snowpark/0.8.0/snowpark-0.8.0.jar to session dependencies.[0m
+[0m2021.08.25 16:06:48 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82b6-0400-9ffe-002a-49030052cff6] create temporary stage if not exists "CITIBIKE"."DEMO".snowSession_11902226260756282[0m
+[0m2021.08.25 16:06:48 INFO  [main] INFO com.snowflake.snowpark.UDFRegistration - Adding /Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/.bloop/hello-snowpark/bloop-bsp-clients-classes/classes-Metals-fzfskF3rRT-E6x1Dmx3zmw== to session dependencies[0m
+[0m2021.08.25 16:06:48 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Actively querying parameter snowpark_lazy_analysis from server.[0m
+[0m2021.08.25 16:06:49 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Actively querying parameter QUERY_TAG from server.[0m
+[0m2021.08.25 16:06:49 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82b6-0400-9ffe-002a-49030052cffe] alter session set query_tag = 'com.snowflake.snowpark.functions$.udf[0m
+[0m2021.08.25 16:06:49 INFO  Main$.main(Main.scala:47)'[0m
+[0m2021.08.25 16:06:49 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82b6-0400-9ffe-002a-49030052d002] ls @"CITIBIKE"."DEMO".snowSession_11902226260756282[0m
+[0m2021.08.25 16:06:54 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82b6-0400-a061-002a-49030052ecda]  SELECT "name" FROM ( SELECT  *  FROM  TABLE ( RESULT_SCAN('019e82b6-0400-9ffe-002a-49030052d002')))[0m
+[0m2021.08.25 16:06:54 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82b6-0400-9ffe-002a-49030052f006] alter session unset query_tag[0m
+[0m2021.08.25 16:06:54 INFO  [snowpark-9] INFO com.snowflake.snowpark.internal.Utils - Uploading file file:/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/snowflake/snowpark/0.8.0/snowpark-0.8.0.jar to stage @"CITIBIKE"."DEMO".snowSession_11902226260756282[0m
+[0m2021.08.25 16:06:54 INFO  [snowpark-2] INFO com.snowflake.snowpark.internal.Utils - Uploading UDF jar to stage @"CITIBIKE"."DEMO".snowSession_11902226260756282[0m
+[0m2021.08.25 16:06:54 INFO  [snowpark-2] INFO com.snowflake.snowpark.UDFRegistration - Adding directory /Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/.bloop/hello-snowpark/bloop-bsp-clients-classes/classes-Metals-fzfskF3rRT-E6x1Dmx3zmw== to UDF jar[0m
+[0m2021.08.25 16:06:55 INFO  [snowpark-2] INFO com.snowflake.snowpark.internal.Utils - Finished Uploading UDF jar to stage @"CITIBIKE"."DEMO".snowSession_11902226260756282 in 1370 ms[0m
+[0m2021.08.25 16:07:00 INFO  [snowpark-9] INFO com.snowflake.snowpark.internal.Utils - Finished Uploading file file:/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/snowflake/snowpark/0.8.0/snowpark-0.8.0.jar to stage @"CITIBIKE"."DEMO".snowSession_11902226260756282 in 5839 ms[0m
+[0m2021.08.25 16:07:05 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82b7-0400-a061-002a-49030052ecde] CREATE TEMPORARY FUNCTION "CITIBIKE"."DEMO".tempUDF_1925591458(arg1 STRING) RETURNS STRING LANGUAGE JAVA IMPORTS = ('@"CITIBIKE"."DEMO".snowSession_11902226260756282/394856b810ecc26e716478d558c3496e/snowpark-0.8.0.jar','@"CITIBIKE"."DEMO".snowSession_11902226260756282/CITIBIKEDEMOtempUDF_1925591458_1493063608/udfJar_370042385_closure.jar') HANDLER='SnowUDF.compute' target_path='@"CITIBIKE"."DEMO".snowSession_11902226260756282/CITIBIKEDEMOtempUDF_1925591458_1493063608/udfJar_370042385.jar' AS $$ [0m
+[0m2021.08.25 16:07:05 INFO  [0m
+[0m2021.08.25 16:07:05 INFO  import com.snowflake.snowpark.internal.JavaUtils;[0m
+[0m2021.08.25 16:07:05 INFO  import com.snowflake.snowpark.types.Geography;[0m
+[0m2021.08.25 16:07:05 INFO  import com.snowflake.snowpark.types.Variant;[0m
+[0m2021.08.25 16:07:05 INFO  import scala.collection.JavaConverters;[0m
+[0m2021.08.25 16:07:05 INFO  [0m
+[0m2021.08.25 16:07:05 INFO  public class SnowUDF {[0m
+[0m2021.08.25 16:07:05 INFO    private static scala.Function1<java.lang.String,java.lang.String> funcImpl = null;[0m
+[0m2021.08.25 16:07:05 INFO    static {[0m
+[0m2021.08.25 16:07:05 INFO      byte[] closure = { -84,-19,0,5,115,114,0,33,106,97,118,97,46,108,97,110,103,46,105,110,118,111,107,101,46,83,101,114,105,97,108,105,122,101,100,76,97,109,98,100,97,111,97,-48,-108,44,41,54,-123,2,0,10,73,0,14,105,109,112,108,77,101,116,104,111,100,75,105,110,100,91,0,12,99,97,112,116,117,114,101,100,65,114,103,115,116,0,19,91,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,0,14,99,97,112,116,117,114,105,110,103,67,108,97,115,115,116,0,17,76,106,97,118,97,47,108,97,110,103,47,67,108,97,115,115,59,76,0,24,102,117,110,99,116,105,111,110,97,108,73,110,116,101,114,102,97,99,101,67,108,97,115,115,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,76,0,29,102,117,110,99,116,105,111,110,97,108,73,110,116,101,114,102,97,99,101,77,101,116,104,111,100,78,97,109,101,113,0,126,0,3,76,0,34,102,117,110,99,116,105,111,110,97,108,73,110,116,101,114,102,97,99,101,77,101,116,104,111,100,83,105,103,110,97,116,117,114,101,113,0,126,0,3,76,0,9,105,109,112,108,67,108,97,115,115,113,0,126,0,3,76,0,14,105,109,112,108,77,101,116,104,111,100,78,97,109,101,113,0,126,0,3,76,0,19,105,109,112,108,77,101,116,104,111,100,83,105,103,110,97,116,117,114,101,113,0,126,0,3,76,0,22,105,110,115,116,97,110,116,105,97,116,101,100,77,101,116,104,111,100,84,121,112,101,113,0,126,0,3,120,112,0,0,0,6,117,114,0,19,91,76,106,97,118,97,46,108,97,110,103,46,79,98,106,101,99,116,59,-112,-50,88,-97,16,115,41,108,2,0,0,120,112,0,0,0,0,118,114,0,7,85,68,70,67,111,100,101,110,-19,-44,-7,99,-119,-40,8,2,0,1,76,0,18,97,112,112,101,110,100,76,97,115,116,78,97,109,101,70,117,110,99,116,0,17,76,115,99,97,108,97,47,70,117,110,99,116,105,111,110,49,59,120,112,116,0,15,115,99,97,108,97,47,70,117,110,99,116,105,111,110,49,116,0,5,97,112,112,108,121,116,0,38,40,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,41,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,116,0,7,85,68,70,67,111,100,101,116,0,29,36,97,110,111,110,102,117,110,36,97,112,112,101,110,100,76,97,115,116,78,97,109,101,70,117,110,99,36,49,116,0,38,40,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,41,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,113,0,126,0,15 };[0m
+[0m2021.08.25 16:07:05 INFO      funcImpl = (scala.Function1<java.lang.String,java.lang.String>) JavaUtils.deserialize(closure);[0m
+[0m2021.08.25 16:07:05 INFO     }[0m
+[0m2021.08.25 16:07:05 INFO    public static java.lang.String compute(java.lang.String arg1) {[0m
+[0m2021.08.25 16:07:05 INFO        return funcImpl.apply(arg1);[0m
+[0m2021.08.25 16:07:05 INFO    }[0m
+[0m2021.08.25 16:07:05 INFO  }[0m
+[0m2021.08.25 16:07:05 INFO          [0m
+[0m2021.08.25 16:07:05 INFO  $$[0m
+[0m2021.08.25 16:07:06 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82b7-0400-a061-002a-49030052ece6]  SELECT  *  FROM ( SELECT "NAME", "CITIBIKE"."DEMO".tempUDF_1925591458("NAME") AS "Full Name" FROM (select 'Raymond' NAME)) LIMIT 10[0m
+[0m2021.08.25 16:07:06 INFO  -----------------------------[0m
+[0m2021.08.25 16:07:06 INFO  |"NAME"   |"Full Name"      |[0m
+[0m2021.08.25 16:07:06 INFO  -----------------------------[0m
+[0m2021.08.25 16:07:06 INFO  |Raymond  |Raymond Johnson  |[0m
+[0m2021.08.25 16:07:06 INFO  -----------------------------[0m
+[0m2021.08.25 16:07:06 INFO  [0m
+[0m2021.08.25 16:07:06 INFO  Run Time: 17.755 seconds[0m
+[0m2021.08.25 16:07:06 INFO  Canceling debug proxy for [Main][0m
+Exception in thread "pool-6-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[0m2021.08.25 16:20:37 INFO  compiling hello-snowpark (1 scala source)[0m
+[0m2021.08.25 16:20:37 INFO  time: compiled hello-snowpark in 0.31s[0m
+[0m2021.08.25 16:21:58 INFO  compiling hello-snowpark (1 scala source)[0m
+[0m2021.08.25 16:21:58 INFO  time: compiled hello-snowpark in 0.4s[0m
+[0m2021.08.25 16:23:06 INFO  compiling hello-snowpark (1 scala source)[0m
+[0m2021.08.25 16:23:08 INFO  time: compiled hello-snowpark in 1.69s[0m
+[0m2021.08.25 16:23:29 INFO  Deduplicating compilation of hello-snowpark from bsp client 'Metals 0.10.5' (since 51m 0.385s)[0m
+[0m2021.08.25 16:23:31 INFO  Deduplicating compilation of hello-snowpark from bsp client 'Metals 0.10.5' (since 51m 2.39s)[0m
+[0m2021.08.25 16:23:31 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mwies/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+[0m2021.08.25 16:23:31 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mwies/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+[0m2021.08.25 16:23:31 INFO  Starting debug proxy for [Main][0m
+[0m2021.08.25 16:23:31 INFO  Listening for transport dt_socket at address: 52356[0m
+[0m2021.08.25 16:23:31 INFO  Trying to attach to remote debuggee VM localhost:52356 .[0m
+[0m2021.08.25 16:23:31 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.08.25 16:23:31 ERROR [main] INFO com.snowflake.snowpark.Session - Closing stderr and redirecting to stdout[0m
+[0m2021.08.25 16:23:31 INFO  [main] INFO com.snowflake.snowpark.Session - Done closing stderr and redirecting to stdout[0m
+[0m2021.08.25 16:23:33 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mwies/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+[0m2021.08.25 16:23:33 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mwies/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+[0m2021.08.25 16:23:33 INFO  Starting debug proxy for [Main][0m
+[0m2021.08.25 16:23:33 INFO  Listening for transport dt_socket at address: 52365[0m
+[0m2021.08.25 16:23:33 INFO  Trying to attach to remote debuggee VM localhost:52365 .[0m
+[0m2021.08.25 16:23:33 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.08.25 16:23:33 ERROR [main] INFO com.snowflake.snowpark.Session - Closing stderr and redirecting to stdout[0m
+[0m2021.08.25 16:23:33 INFO  [main] INFO com.snowflake.snowpark.Session - Done closing stderr and redirecting to stdout[0m
+[0m2021.08.25 16:23:35 INFO  [main] INFO com.snowflake.snowpark.Session - Snowpark Session information: {[0m
+[0m2021.08.25 16:23:35 INFO   "snowpark.version" : "0.8.0",[0m
+[0m2021.08.25 16:23:35 INFO   "java.version" : "11.0.11",[0m
+[0m2021.08.25 16:23:35 INFO   "scala.version" : "2.12.13",[0m
+[0m2021.08.25 16:23:35 INFO   "jdbc.session.id" : "11902226260756326",[0m
+[0m2021.08.25 16:23:35 INFO   "os.name" : "Mac OS X",[0m
+[0m2021.08.25 16:23:35 INFO   "jdbc.version" : "3.13.3",[0m
+[0m2021.08.25 16:23:35 INFO   "snowpark.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/snowflake/snowpark/0.8.0/snowpark-0.8.0.jar",[0m
+[0m2021.08.25 16:23:35 INFO   "scala.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar",[0m
+[0m2021.08.25 16:23:35 INFO   "jdbc.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/snowflake/snowflake-jdbc/3.13.3/snowflake-jdbc-3.13.3.jar"[0m
+[0m2021.08.25 16:23:35 INFO  }[0m
+[0m2021.08.25 16:23:35 INFO  [main] INFO com.snowflake.snowpark.UDFRegistration - Automatically added /Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/snowflake/snowpark/0.8.0/snowpark-0.8.0.jar to session dependencies.[0m
+[0m2021.08.25 16:23:36 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-9ffe-002a-49030052f09e] create temporary stage if not exists "CITIBIKE"."DEMO".snowSession_11902226260756326[0m
+[0m2021.08.25 16:23:36 INFO  [main] INFO com.snowflake.snowpark.UDFRegistration - Adding /Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/.bloop/hello-snowpark/bloop-bsp-clients-classes/classes-Metals-fzfskF3rRT-E6x1Dmx3zmw== to session dependencies[0m
+[0m2021.08.25 16:23:36 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Actively querying parameter snowpark_lazy_analysis from server.[0m
+[0m2021.08.25 16:23:36 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Actively querying parameter QUERY_TAG from server.[0m
+[0m2021.08.25 16:23:36 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-9ffe-002a-49030052f0aa] alter session set query_tag = 'com.snowflake.snowpark.functions$.udf[0m
+[0m2021.08.25 16:23:36 INFO  Main$.main(Main.scala:46)'[0m
+[0m2021.08.25 16:23:36 INFO  [main] INFO com.snowflake.snowpark.Session - Snowpark Session information: {[0m
+[0m2021.08.25 16:23:36 INFO   "snowpark.version" : "0.8.0",[0m
+[0m2021.08.25 16:23:36 INFO   "java.version" : "11.0.11",[0m
+[0m2021.08.25 16:23:36 INFO   "scala.version" : "2.12.13",[0m
+[0m2021.08.25 16:23:36 INFO   "jdbc.session.id" : "11902226260756330",[0m
+[0m2021.08.25 16:23:36 INFO   "os.name" : "Mac OS X",[0m
+[0m2021.08.25 16:23:36 INFO   "jdbc.version" : "3.13.3",[0m
+[0m2021.08.25 16:23:36 INFO   "snowpark.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/snowflake/snowpark/0.8.0/snowpark-0.8.0.jar",[0m
+[0m2021.08.25 16:23:36 INFO   "scala.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar",[0m
+[0m2021.08.25 16:23:36 INFO   "jdbc.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/snowflake/snowflake-jdbc/3.13.3/snowflake-jdbc-3.13.3.jar"[0m
+[0m2021.08.25 16:23:36 INFO  }[0m
+[0m2021.08.25 16:23:36 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-9ffe-002a-49030052f0ae] ls @"CITIBIKE"."DEMO".snowSession_11902226260756326[0m
+[0m2021.08.25 16:23:37 INFO  [main] INFO com.snowflake.snowpark.UDFRegistration - Automatically added /Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/snowflake/snowpark/0.8.0/snowpark-0.8.0.jar to session dependencies.[0m
+[0m2021.08.25 16:23:37 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-a061-002a-49030052ed62] create temporary stage if not exists "CITIBIKE"."DEMO".snowSession_11902226260756330[0m
+[0m2021.08.25 16:23:37 INFO  [main] INFO com.snowflake.snowpark.UDFRegistration - Adding /Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/.bloop/hello-snowpark/bloop-bsp-clients-classes/classes-Metals-fzfskF3rRT-E6x1Dmx3zmw== to session dependencies[0m
+[0m2021.08.25 16:23:37 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Actively querying parameter snowpark_lazy_analysis from server.[0m
+[0m2021.08.25 16:23:37 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-9ffe-002a-49030052f0b2]  SELECT "name" FROM ( SELECT  *  FROM  TABLE ( RESULT_SCAN('019e82c7-0400-9ffe-002a-49030052f0ae')))[0m
+[0m2021.08.25 16:23:37 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Actively querying parameter QUERY_TAG from server.[0m
+[0m2021.08.25 16:23:37 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-a061-002a-49030052ed6a] alter session unset query_tag[0m
+[0m2021.08.25 16:23:37 INFO  [snowpark-9] INFO com.snowflake.snowpark.internal.Utils - Uploading file file:/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/snowflake/snowpark/0.8.0/snowpark-0.8.0.jar to stage @"CITIBIKE"."DEMO".snowSession_11902226260756326[0m
+[0m2021.08.25 16:23:37 INFO  [snowpark-2] INFO com.snowflake.snowpark.internal.Utils - Uploading UDF jar to stage @"CITIBIKE"."DEMO".snowSession_11902226260756326[0m
+[0m2021.08.25 16:23:37 INFO  [snowpark-2] INFO com.snowflake.snowpark.UDFRegistration - Adding directory /Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/.bloop/hello-snowpark/bloop-bsp-clients-classes/classes-Metals-fzfskF3rRT-E6x1Dmx3zmw== to UDF jar[0m
+[0m2021.08.25 16:23:37 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-9ffe-002a-49030052f0c2] alter session set query_tag = 'com.snowflake.snowpark.functions$.udf[0m
+[0m2021.08.25 16:23:37 INFO  Main$.main(Main.scala:46)'[0m
+[0m2021.08.25 16:23:37 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-9ffe-002a-49030052f0c6] ls @"CITIBIKE"."DEMO".snowSession_11902226260756330[0m
+[0m2021.08.25 16:23:39 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-9ffe-002a-49030052f0ca]  SELECT "name" FROM ( SELECT  *  FROM  TABLE ( RESULT_SCAN('019e82c7-0400-9ffe-002a-49030052f0c6')))[0m
+[0m2021.08.25 16:23:39 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-9ffe-002a-49030052f0ce] alter session unset query_tag[0m
+[0m2021.08.25 16:23:39 INFO  [snowpark-9] INFO com.snowflake.snowpark.internal.Utils - Uploading file file:/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/snowflake/snowpark/0.8.0/snowpark-0.8.0.jar to stage @"CITIBIKE"."DEMO".snowSession_11902226260756330[0m
+[0m2021.08.25 16:23:39 INFO  [snowpark-2] INFO com.snowflake.snowpark.internal.Utils - Uploading UDF jar to stage @"CITIBIKE"."DEMO".snowSession_11902226260756330[0m
+[0m2021.08.25 16:23:39 INFO  [snowpark-2] INFO com.snowflake.snowpark.UDFRegistration - Adding directory /Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/.bloop/hello-snowpark/bloop-bsp-clients-classes/classes-Metals-fzfskF3rRT-E6x1Dmx3zmw== to UDF jar[0m
+[0m2021.08.25 16:23:39 INFO  [snowpark-2] INFO com.snowflake.snowpark.internal.Utils - Finished Uploading UDF jar to stage @"CITIBIKE"."DEMO".snowSession_11902226260756326 in 1320 ms[0m
+[0m2021.08.25 16:23:40 INFO  [snowpark-2] INFO com.snowflake.snowpark.internal.Utils - Finished Uploading UDF jar to stage @"CITIBIKE"."DEMO".snowSession_11902226260756330 in 1295 ms[0m
+[0m2021.08.25 16:23:43 INFO  [snowpark-9] INFO com.snowflake.snowpark.internal.Utils - Finished Uploading file file:/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/snowflake/snowpark/0.8.0/snowpark-0.8.0.jar to stage @"CITIBIKE"."DEMO".snowSession_11902226260756326 in 5470 ms[0m
+[0m2021.08.25 16:23:44 INFO  [snowpark-9] INFO com.snowflake.snowpark.internal.Utils - Finished Uploading file file:/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/snowflake/snowpark/0.8.0/snowpark-0.8.0.jar to stage @"CITIBIKE"."DEMO".snowSession_11902226260756330 in 5525 ms[0m
+[0m2021.08.25 16:23:48 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-9ffe-002a-49030052f0d2] CREATE TEMPORARY FUNCTION "CITIBIKE"."DEMO".tempUDF_1271594089(arg1 STRING) RETURNS STRING LANGUAGE JAVA IMPORTS = ('@"CITIBIKE"."DEMO".snowSession_11902226260756326/394856b810ecc26e716478d558c3496e/snowpark-0.8.0.jar','@"CITIBIKE"."DEMO".snowSession_11902226260756326/CITIBIKEDEMOtempUDF_1271594089_2129498239/udfJar_1538298074_closure.jar') HANDLER='SnowUDF.compute' target_path='@"CITIBIKE"."DEMO".snowSession_11902226260756326/CITIBIKEDEMOtempUDF_1271594089_2129498239/udfJar_1538298074.jar' AS $$ [0m
+[0m2021.08.25 16:23:48 INFO  [0m
+[0m2021.08.25 16:23:48 INFO  import com.snowflake.snowpark.internal.JavaUtils;[0m
+[0m2021.08.25 16:23:48 INFO  import com.snowflake.snowpark.types.Geography;[0m
+[0m2021.08.25 16:23:48 INFO  import com.snowflake.snowpark.types.Variant;[0m
+[0m2021.08.25 16:23:48 INFO  import scala.collection.JavaConverters;[0m
+[0m2021.08.25 16:23:48 INFO  [0m
+[0m2021.08.25 16:23:48 INFO  public class SnowUDF {[0m
+[0m2021.08.25 16:23:48 INFO    private static scala.Function1<java.lang.String,java.lang.String> funcImpl = null;[0m
+[0m2021.08.25 16:23:48 INFO    static {[0m
+[0m2021.08.25 16:23:48 INFO      byte[] closure = { -84,-19,0,5,115,114,0,33,106,97,118,97,46,108,97,110,103,46,105,110,118,111,107,101,46,83,101,114,105,97,108,105,122,101,100,76,97,109,98,100,97,111,97,-48,-108,44,41,54,-123,2,0,10,73,0,14,105,109,112,108,77,101,116,104,111,100,75,105,110,100,91,0,12,99,97,112,116,117,114,101,100,65,114,103,115,116,0,19,91,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,0,14,99,97,112,116,117,114,105,110,103,67,108,97,115,115,116,0,17,76,106,97,118,97,47,108,97,110,103,47,67,108,97,115,115,59,76,0,24,102,117,110,99,116,105,111,110,97,108,73,110,116,101,114,102,97,99,101,67,108,97,115,115,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,76,0,29,102,117,110,99,116,105,111,110,97,108,73,110,116,101,114,102,97,99,101,77,101,116,104,111,100,78,97,109,101,113,0,126,0,3,76,0,34,102,117,110,99,116,105,111,110,97,108,73,110,116,101,114,102,97,99,101,77,101,116,104,111,100,83,105,103,110,97,116,117,114,101,113,0,126,0,3,76,0,9,105,109,112,108,67,108,97,115,115,113,0,126,0,3,76,0,14,105,109,112,108,77,101,116,104,111,100,78,97,109,101,113,0,126,0,3,76,0,19,105,109,112,108,77,101,116,104,111,100,83,105,103,110,97,116,117,114,101,113,0,126,0,3,76,0,22,105,110,115,116,97,110,116,105,97,116,101,100,77,101,116,104,111,100,84,121,112,101,113,0,126,0,3,120,112,0,0,0,6,117,114,0,19,91,76,106,97,118,97,46,108,97,110,103,46,79,98,106,101,99,116,59,-112,-50,88,-97,16,115,41,108,2,0,0,120,112,0,0,0,0,118,114,0,7,85,68,70,67,111,100,101,110,-19,-44,-7,99,-119,-40,8,2,0,1,76,0,18,97,112,112,101,110,100,76,97,115,116,78,97,109,101,70,117,110,99,116,0,17,76,115,99,97,108,97,47,70,117,110,99,116,105,111,110,49,59,120,112,116,0,15,115,99,97,108,97,47,70,117,110,99,116,105,111,110,49,116,0,5,97,112,112,108,121,116,0,38,40,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,41,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,116,0,7,85,68,70,67,111,100,101,116,0,29,36,97,110,111,110,102,117,110,36,97,112,112,101,110,100,76,97,115,116,78,97,109,101,70,117,110,99,36,49,116,0,38,40,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,41,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,113,0,126,0,15 };[0m
+[0m2021.08.25 16:23:48 INFO      funcImpl = (scala.Function1<java.lang.String,java.lang.String>) JavaUtils.deserialize(closure);[0m
+[0m2021.08.25 16:23:48 INFO     }[0m
+[0m2021.08.25 16:23:48 INFO    public static java.lang.String compute(java.lang.String arg1) {[0m
+[0m2021.08.25 16:23:48 INFO        return funcImpl.apply(arg1);[0m
+[0m2021.08.25 16:23:48 INFO    }[0m
+[0m2021.08.25 16:23:48 INFO  }[0m
+[0m2021.08.25 16:23:48 INFO          [0m
+[0m2021.08.25 16:23:48 INFO  $$[0m
+[0m2021.08.25 16:23:50 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-a061-002a-49030052ed7a] CREATE TEMPORARY FUNCTION "CITIBIKE"."DEMO".tempUDF_704926026(arg1 STRING) RETURNS STRING LANGUAGE JAVA IMPORTS = ('@"CITIBIKE"."DEMO".snowSession_11902226260756330/394856b810ecc26e716478d558c3496e/snowpark-0.8.0.jar','@"CITIBIKE"."DEMO".snowSession_11902226260756330/CITIBIKEDEMOtempUDF_704926026_758968335/udfJar_1943308028_closure.jar') HANDLER='SnowUDF.compute' target_path='@"CITIBIKE"."DEMO".snowSession_11902226260756330/CITIBIKEDEMOtempUDF_704926026_758968335/udfJar_1943308028.jar' AS $$ [0m
+[0m2021.08.25 16:23:50 INFO  [0m
+[0m2021.08.25 16:23:50 INFO  import com.snowflake.snowpark.internal.JavaUtils;[0m
+[0m2021.08.25 16:23:50 INFO  import com.snowflake.snowpark.types.Geography;[0m
+[0m2021.08.25 16:23:50 INFO  import com.snowflake.snowpark.types.Variant;[0m
+[0m2021.08.25 16:23:50 INFO  import scala.collection.JavaConverters;[0m
+[0m2021.08.25 16:23:50 INFO  [0m
+[0m2021.08.25 16:23:50 INFO  public class SnowUDF {[0m
+[0m2021.08.25 16:23:50 INFO    private static scala.Function1<java.lang.String,java.lang.String> funcImpl = null;[0m
+[0m2021.08.25 16:23:50 INFO    static {[0m
+[0m2021.08.25 16:23:50 INFO      byte[] closure = { -84,-19,0,5,115,114,0,33,106,97,118,97,46,108,97,110,103,46,105,110,118,111,107,101,46,83,101,114,105,97,108,105,122,101,100,76,97,109,98,100,97,111,97,-48,-108,44,41,54,-123,2,0,10,73,0,14,105,109,112,108,77,101,116,104,111,100,75,105,110,100,91,0,12,99,97,112,116,117,114,101,100,65,114,103,115,116,0,19,91,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,0,14,99,97,112,116,117,114,105,110,103,67,108,97,115,115,116,0,17,76,106,97,118,97,47,108,97,110,103,47,67,108,97,115,115,59,76,0,24,102,117,110,99,116,105,111,110,97,108,73,110,116,101,114,102,97,99,101,67,108,97,115,115,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,76,0,29,102,117,110,99,116,105,111,110,97,108,73,110,116,101,114,102,97,99,101,77,101,116,104,111,100,78,97,109,101,113,0,126,0,3,76,0,34,102,117,110,99,116,105,111,110,97,108,73,110,116,101,114,102,97,99,101,77,101,116,104,111,100,83,105,103,110,97,116,117,114,101,113,0,126,0,3,76,0,9,105,109,112,108,67,108,97,115,115,113,0,126,0,3,76,0,14,105,109,112,108,77,101,116,104,111,100,78,97,109,101,113,0,126,0,3,76,0,19,105,109,112,108,77,101,116,104,111,100,83,105,103,110,97,116,117,114,101,113,0,126,0,3,76,0,22,105,110,115,116,97,110,116,105,97,116,101,100,77,101,116,104,111,100,84,121,112,101,113,0,126,0,3,120,112,0,0,0,6,117,114,0,19,91,76,106,97,118,97,46,108,97,110,103,46,79,98,106,101,99,116,59,-112,-50,88,-97,16,115,41,108,2,0,0,120,112,0,0,0,0,118,114,0,7,85,68,70,67,111,100,101,110,-19,-44,-7,99,-119,-40,8,2,0,1,76,0,18,97,112,112,101,110,100,76,97,115,116,78,97,109,101,70,117,110,99,116,0,17,76,115,99,97,108,97,47,70,117,110,99,116,105,111,110,49,59,120,112,116,0,15,115,99,97,108,97,47,70,117,110,99,116,105,111,110,49,116,0,5,97,112,112,108,121,116,0,38,40,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,41,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,116,0,7,85,68,70,67,111,100,101,116,0,29,36,97,110,111,110,102,117,110,36,97,112,112,101,110,100,76,97,115,116,78,97,109,101,70,117,110,99,36,49,116,0,38,40,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,41,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,113,0,126,0,15 };[0m
+[0m2021.08.25 16:23:50 INFO      funcImpl = (scala.Function1<java.lang.String,java.lang.String>) JavaUtils.deserialize(closure);[0m
+[0m2021.08.25 16:23:50 INFO     }[0m
+[0m2021.08.25 16:23:50 INFO    public static java.lang.String compute(java.lang.String arg1) {[0m
+[0m2021.08.25 16:23:50 INFO        return funcImpl.apply(arg1);[0m
+[0m2021.08.25 16:23:50 INFO    }[0m
+[0m2021.08.25 16:23:50 INFO  }[0m
+[0m2021.08.25 16:23:50 INFO          [0m
+[0m2021.08.25 16:23:50 INFO  $$[0m
+[0m2021.08.25 16:23:52 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-9ffe-002a-49030052f0da]  SELECT  *  FROM ( SELECT "NAME", "CITIBIKE"."DEMO".tempUDF_1271594089("NAME") AS "Full Name" FROM (select 'Raymond' NAME)) LIMIT 10[0m
+[0m2021.08.25 16:23:52 INFO  -----------------------------[0m
+[0m2021.08.25 16:23:52 INFO  |"NAME"   |"Full Name"      |[0m
+[0m2021.08.25 16:23:52 INFO  -----------------------------[0m
+[0m2021.08.25 16:23:52 INFO  |Raymond  |Raymond Johnson  |[0m
+[0m2021.08.25 16:23:52 INFO  -----------------------------[0m
+[0m2021.08.25 16:23:52 INFO  [0m
+[0m2021.08.25 16:23:52 INFO  [main] INFO com.snowflake.snowpark.UDFRegistration - Adding /Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/.bloop/hello-snowpark/bloop-bsp-clients-classes/classes-Metals-fzfskF3rRT-E6x1Dmx3zmw== to session dependencies[0m
+[0m2021.08.25 16:23:52 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-9ffe-002a-49030052f0e2]  SELECT  *  FROM ( SELECT "NAME", "CITIBIKE"."DEMO".tempUDF_704926026("NAME") AS "Full Name" FROM (select 'Raymond' NAME)) LIMIT 10[0m
+[0m2021.08.25 16:23:52 INFO  -----------------------------[0m
+[0m2021.08.25 16:23:52 INFO  |"NAME"   |"Full Name"      |[0m
+[0m2021.08.25 16:23:52 INFO  -----------------------------[0m
+[0m2021.08.25 16:23:52 INFO  |Raymond  |Raymond Johnson  |[0m
+[0m2021.08.25 16:23:52 INFO  -----------------------------[0m
+[0m2021.08.25 16:23:52 INFO  [0m
+[0m2021.08.25 16:23:52 INFO  [main] INFO com.snowflake.snowpark.UDFRegistration - Adding /Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/.bloop/hello-snowpark/bloop-bsp-clients-classes/classes-Metals-fzfskF3rRT-E6x1Dmx3zmw== to session dependencies[0m
+[0m2021.08.25 16:23:52 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-9ffe-002a-49030052f0ea] alter session set query_tag = 'com.snowflake.snowpark.functions$.udf[0m
+[0m2021.08.25 16:23:52 INFO  Main$.main(Main.scala:54)'[0m
+[0m2021.08.25 16:23:52 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-a061-002a-49030052ed82] alter session set query_tag = 'com.snowflake.snowpark.functions$.udf[0m
+[0m2021.08.25 16:23:52 INFO  Main$.main(Main.scala:54)'[0m
+[0m2021.08.25 16:23:52 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-a061-002a-49030052ed86] ls @"CITIBIKE"."DEMO".snowSession_11902226260756326[0m
+[0m2021.08.25 16:23:52 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-a061-002a-49030052ed8a] ls @"CITIBIKE"."DEMO".snowSession_11902226260756330[0m
+[0m2021.08.25 16:23:53 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-9ffe-002a-49030052f0ee]  SELECT "name" FROM ( SELECT  *  FROM  TABLE ( RESULT_SCAN('019e82c7-0400-a061-002a-49030052ed86')))[0m
+[0m2021.08.25 16:23:53 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-a061-002a-49030052ed92] alter session unset query_tag[0m
+[0m2021.08.25 16:23:53 INFO  [snowpark-9] INFO com.snowflake.snowpark.Session - 394856b810ecc26e716478d558c3496e/snowpark-0.8.0.jar exists on @"CITIBIKE"."DEMO".snowSession_11902226260756326, skipped[0m
+[0m2021.08.25 16:23:53 INFO  [snowpark-9] INFO com.snowflake.snowpark.internal.Utils - Uploading UDF jar to stage @"CITIBIKE"."DEMO".snowSession_11902226260756326[0m
+[0m2021.08.25 16:23:53 INFO  [snowpark-9] INFO com.snowflake.snowpark.UDFRegistration - Adding directory /Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/.bloop/hello-snowpark/bloop-bsp-clients-classes/classes-Metals-fzfskF3rRT-E6x1Dmx3zmw== to UDF jar[0m
+[0m2021.08.25 16:23:53 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-a061-002a-49030052ed8e]  SELECT "name" FROM ( SELECT  *  FROM  TABLE ( RESULT_SCAN('019e82c7-0400-a061-002a-49030052ed8a')))[0m
+[0m2021.08.25 16:23:53 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-9ffe-002a-49030052f0f6] alter session unset query_tag[0m
+[0m2021.08.25 16:23:53 INFO  [snowpark-2] INFO com.snowflake.snowpark.Session - 394856b810ecc26e716478d558c3496e/snowpark-0.8.0.jar exists on @"CITIBIKE"."DEMO".snowSession_11902226260756330, skipped[0m
+[0m2021.08.25 16:23:53 INFO  [snowpark-2] INFO com.snowflake.snowpark.internal.Utils - Uploading UDF jar to stage @"CITIBIKE"."DEMO".snowSession_11902226260756330[0m
+[0m2021.08.25 16:23:53 INFO  [snowpark-2] INFO com.snowflake.snowpark.UDFRegistration - Adding directory /Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/.bloop/hello-snowpark/bloop-bsp-clients-classes/classes-Metals-fzfskF3rRT-E6x1Dmx3zmw== to UDF jar[0m
+[0m2021.08.25 16:23:54 INFO  [snowpark-9] INFO com.snowflake.snowpark.internal.Utils - Finished Uploading UDF jar to stage @"CITIBIKE"."DEMO".snowSession_11902226260756326 in 917 ms[0m
+[0m2021.08.25 16:23:54 INFO  [snowpark-2] INFO com.snowflake.snowpark.internal.Utils - Finished Uploading UDF jar to stage @"CITIBIKE"."DEMO".snowSession_11902226260756330 in 903 ms[0m
+[0m2021.08.25 16:23:56 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-9ffe-002a-49030052f0fe] CREATE TEMPORARY FUNCTION "CITIBIKE"."DEMO".tempUDF_1750507929(arg1 DOUBLE,arg2 DOUBLE,arg3 DOUBLE,arg4 DOUBLE) RETURNS DOUBLE LANGUAGE JAVA IMPORTS = ('@"CITIBIKE"."DEMO".snowSession_11902226260756326/394856b810ecc26e716478d558c3496e/snowpark-0.8.0.jar','@"CITIBIKE"."DEMO".snowSession_11902226260756326/CITIBIKEDEMOtempUDF_1750507929_1595789608/udfJar_1489546642_closure.jar') HANDLER='SnowUDF.compute' target_path='@"CITIBIKE"."DEMO".snowSession_11902226260756326/CITIBIKEDEMOtempUDF_1750507929_1595789608/udfJar_1489546642.jar' AS $$ [0m
+[0m2021.08.25 16:23:56 INFO  [0m
+[0m2021.08.25 16:23:56 INFO  import com.snowflake.snowpark.internal.JavaUtils;[0m
+[0m2021.08.25 16:23:56 INFO  import com.snowflake.snowpark.types.Geography;[0m
+[0m2021.08.25 16:23:56 INFO  import com.snowflake.snowpark.types.Variant;[0m
+[0m2021.08.25 16:23:56 INFO  import scala.collection.JavaConverters;[0m
+[0m2021.08.25 16:23:56 INFO  [0m
+[0m2021.08.25 16:23:56 INFO  public class SnowUDF {[0m
+[0m2021.08.25 16:23:56 INFO    private static scala.Function4<java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double> funcImpl = null;[0m
+[0m2021.08.25 16:23:56 INFO    static {[0m
+[0m2021.08.25 16:23:56 INFO      byte[] closure = { -84,-19,0,5,115,114,0,33,106,97,118,97,46,108,97,110,103,46,105,110,118,111,107,101,46,83,101,114,105,97,108,105,122,101,100,76,97,109,98,100,97,111,97,-48,-108,44,41,54,-123,2,0,10,73,0,14,105,109,112,108,77,101,116,104,111,100,75,105,110,100,91,0,12,99,97,112,116,117,114,101,100,65,114,103,115,116,0,19,91,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,0,14,99,97,112,116,117,114,105,110,103,67,108,97,115,115,116,0,17,76,106,97,118,97,47,108,97,110,103,47,67,108,97,115,115,59,76,0,24,102,117,110,99,116,105,111,110,97,108,73,110,116,101,114,102,97,99,101,67,108,97,115,115,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,76,0,29,102,117,110,99,116,105,111,110,97,108,73,110,116,101,114,102,97,99,101,77,101,116,104,111,100,78,97,109,101,113,0,126,0,3,76,0,34,102,117,110,99,116,105,111,110,97,108,73,110,116,101,114,102,97,99,101,77,101,116,104,111,100,83,105,103,110,97,116,117,114,101,113,0,126,0,3,76,0,9,105,109,112,108,67,108,97,115,115,113,0,126,0,3,76,0,14,105,109,112,108,77,101,116,104,111,100,78,97,109,101,113,0,126,0,3,76,0,19,105,109,112,108,77,101,116,104,111,100,83,105,103,110,97,116,117,114,101,113,0,126,0,3,76,0,22,105,110,115,116,97,110,116,105,97,116,101,100,77,101,116,104,111,100,84,121,112,101,113,0,126,0,3,120,112,0,0,0,6,117,114,0,19,91,76,106,97,118,97,46,108,97,110,103,46,79,98,106,101,99,116,59,-112,-50,88,-97,16,115,41,108,2,0,0,120,112,0,0,0,1,115,114,0,22,68,105,115,116,97,110,99,101,67,97,108,99,117,108,97,116,111,114,73,109,112,108,28,-74,-17,-13,86,36,-10,16,2,0,1,73,0,26,65,86,69,82,65,71,69,95,82,65,68,73,85,83,95,79,70,95,69,65,82,84,72,95,75,77,120,112,0,0,24,-29,118,114,0,5,77,97,105,110,36,0,0,0,0,0,0,0,0,0,0,0,120,112,116,0,15,115,99,97,108,97,47,70,117,110,99,116,105,111,110,52,116,0,5,97,112,112,108,121,116,0,92,40,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,41,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,116,0,5,77,97,105,110,36,116,0,23,36,97,110,111,110,102,117,110,36,109,97,105,110,36,49,36,97,100,97,112,116,101,100,116,0,116,40,76,68,105,115,116,97,110,99,101,67,97,108,99,117,108,97,116,111,114,73,109,112,108,59,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,41,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,113,0,126,0,13 };[0m
+[0m2021.08.25 16:23:56 INFO      funcImpl = (scala.Function4<java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double>) JavaUtils.deserialize(closure);[0m
+[0m2021.08.25 16:23:56 INFO     }[0m
+[0m2021.08.25 16:23:56 INFO    public static java.lang.Double compute(java.lang.Double arg1,java.lang.Double arg2,java.lang.Double arg3,java.lang.Double arg4) {[0m
+[0m2021.08.25 16:23:56 INFO        return funcImpl.apply(arg1,arg2,arg3,arg4);[0m
+[0m2021.08.25 16:23:56 INFO    }[0m
+[0m2021.08.25 16:23:56 INFO  }[0m
+[0m2021.08.25 16:23:56 INFO          [0m
+[0m2021.08.25 16:23:56 INFO  $$[0m
+[0m2021.08.25 16:23:56 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-9ffe-002a-49030052f102] CREATE TEMPORARY FUNCTION "CITIBIKE"."DEMO".tempUDF_1592628727(arg1 DOUBLE,arg2 DOUBLE,arg3 DOUBLE,arg4 DOUBLE) RETURNS DOUBLE LANGUAGE JAVA IMPORTS = ('@"CITIBIKE"."DEMO".snowSession_11902226260756330/394856b810ecc26e716478d558c3496e/snowpark-0.8.0.jar','@"CITIBIKE"."DEMO".snowSession_11902226260756330/CITIBIKEDEMOtempUDF_1592628727_1102549408/udfJar_1771120155_closure.jar') HANDLER='SnowUDF.compute' target_path='@"CITIBIKE"."DEMO".snowSession_11902226260756330/CITIBIKEDEMOtempUDF_1592628727_1102549408/udfJar_1771120155.jar' AS $$ [0m
+[0m2021.08.25 16:23:56 INFO  [0m
+[0m2021.08.25 16:23:56 INFO  import com.snowflake.snowpark.internal.JavaUtils;[0m
+[0m2021.08.25 16:23:56 INFO  import com.snowflake.snowpark.types.Geography;[0m
+[0m2021.08.25 16:23:56 INFO  import com.snowflake.snowpark.types.Variant;[0m
+[0m2021.08.25 16:23:56 INFO  import scala.collection.JavaConverters;[0m
+[0m2021.08.25 16:23:56 INFO  [0m
+[0m2021.08.25 16:23:56 INFO  public class SnowUDF {[0m
+[0m2021.08.25 16:23:56 INFO    private static scala.Function4<java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double> funcImpl = null;[0m
+[0m2021.08.25 16:23:56 INFO    static {[0m
+[0m2021.08.25 16:23:56 INFO      byte[] closure = { -84,-19,0,5,115,114,0,33,106,97,118,97,46,108,97,110,103,46,105,110,118,111,107,101,46,83,101,114,105,97,108,105,122,101,100,76,97,109,98,100,97,111,97,-48,-108,44,41,54,-123,2,0,10,73,0,14,105,109,112,108,77,101,116,104,111,100,75,105,110,100,91,0,12,99,97,112,116,117,114,101,100,65,114,103,115,116,0,19,91,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,0,14,99,97,112,116,117,114,105,110,103,67,108,97,115,115,116,0,17,76,106,97,118,97,47,108,97,110,103,47,67,108,97,115,115,59,76,0,24,102,117,110,99,116,105,111,110,97,108,73,110,116,101,114,102,97,99,101,67,108,97,115,115,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,76,0,29,102,117,110,99,116,105,111,110,97,108,73,110,116,101,114,102,97,99,101,77,101,116,104,111,100,78,97,109,101,113,0,126,0,3,76,0,34,102,117,110,99,116,105,111,110,97,108,73,110,116,101,114,102,97,99,101,77,101,116,104,111,100,83,105,103,110,97,116,117,114,101,113,0,126,0,3,76,0,9,105,109,112,108,67,108,97,115,115,113,0,126,0,3,76,0,14,105,109,112,108,77,101,116,104,111,100,78,97,109,101,113,0,126,0,3,76,0,19,105,109,112,108,77,101,116,104,111,100,83,105,103,110,97,116,117,114,101,113,0,126,0,3,76,0,22,105,110,115,116,97,110,116,105,97,116,101,100,77,101,116,104,111,100,84,121,112,101,113,0,126,0,3,120,112,0,0,0,6,117,114,0,19,91,76,106,97,118,97,46,108,97,110,103,46,79,98,106,101,99,116,59,-112,-50,88,-97,16,115,41,108,2,0,0,120,112,0,0,0,1,115,114,0,22,68,105,115,116,97,110,99,101,67,97,108,99,117,108,97,116,111,114,73,109,112,108,28,-74,-17,-13,86,36,-10,16,2,0,1,73,0,26,65,86,69,82,65,71,69,95,82,65,68,73,85,83,95,79,70,95,69,65,82,84,72,95,75,77,120,112,0,0,24,-29,118,114,0,5,77,97,105,110,36,0,0,0,0,0,0,0,0,0,0,0,120,112,116,0,15,115,99,97,108,97,47,70,117,110,99,116,105,111,110,52,116,0,5,97,112,112,108,121,116,0,92,40,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,41,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,116,0,5,77,97,105,110,36,116,0,23,36,97,110,111,110,102,117,110,36,109,97,105,110,36,49,36,97,100,97,112,116,101,100,116,0,116,40,76,68,105,115,116,97,110,99,101,67,97,108,99,117,108,97,116,111,114,73,109,112,108,59,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,41,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,113,0,126,0,13 };[0m
+[0m2021.08.25 16:23:56 INFO      funcImpl = (scala.Function4<java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double>) JavaUtils.deserialize(closure);[0m
+[0m2021.08.25 16:23:56 INFO     }[0m
+[0m2021.08.25 16:23:56 INFO    public static java.lang.Double compute(java.lang.Double arg1,java.lang.Double arg2,java.lang.Double arg3,java.lang.Double arg4) {[0m
+[0m2021.08.25 16:23:56 INFO        return funcImpl.apply(arg1,arg2,arg3,arg4);[0m
+[0m2021.08.25 16:23:56 INFO    }[0m
+[0m2021.08.25 16:23:56 INFO  }[0m
+[0m2021.08.25 16:23:56 INFO          [0m
+[0m2021.08.25 16:23:56 INFO  $$[0m
+[0m2021.08.25 16:23:57 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-9ffe-002a-49030052f106]  SELECT  *  FROM ( SELECT "LAT1", "LON1", "LAT2", "LON2", "CITIBIKE"."DEMO".tempUDF_1750507929("LAT1", "LON1", "LAT2", "LON2") AS "DIST_KM" FROM (select 43.784049 LAT1,-79.128794 LON1,43.66493975822026 LAT2,-79.3754006905373 LON2)) LIMIT 10[0m
+[0m2021.08.25 16:23:57 INFO  ---------------------------------------------------------------------------------------[0m
+[0m2021.08.25 16:23:57 INFO  |"LAT1"     |"LON1"      |"LAT2"             |"LON2"             |"DIST_KM"           |[0m
+[0m2021.08.25 16:23:57 INFO  ---------------------------------------------------------------------------------------[0m
+[0m2021.08.25 16:23:57 INFO  |43.784049  |-79.128794  |43.66493975822026  |-79.3754006905373  |23.835112878779597  |[0m
+[0m2021.08.25 16:23:57 INFO  ---------------------------------------------------------------------------------------[0m
+[0m2021.08.25 16:23:57 INFO  [0m
+[0m2021.08.25 16:23:57 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-a061-002a-49030052eda2] alter session set query_tag = 'com.snowflake.snowpark.DataFrame.count[0m
+[0m2021.08.25 16:23:57 INFO  Main$.main(Main.scala:66)'[0m
+[0m2021.08.25 16:23:57 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-9ffe-002a-49030052f10e] alter session set query_tag = 'com.snowflake.snowpark.DataFrame.count[0m
+[0m2021.08.25 16:23:57 INFO  Main$.main(Main.scala:66)'[0m
+[0m2021.08.25 16:23:57 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-a061-002a-49030052ed9e]  SELECT  *  FROM ( SELECT "LAT1", "LON1", "LAT2", "LON2", "CITIBIKE"."DEMO".tempUDF_1592628727("LAT1", "LON1", "LAT2", "LON2") AS "DIST_KM" FROM (select 43.784049 LAT1,-79.128794 LON1,43.66493975822026 LAT2,-79.3754006905373 LON2)) LIMIT 10[0m
+[0m2021.08.25 16:23:57 INFO  ---------------------------------------------------------------------------------------[0m
+[0m2021.08.25 16:23:57 INFO  |"LAT1"     |"LON1"      |"LAT2"             |"LON2"             |"DIST_KM"           |[0m
+[0m2021.08.25 16:23:57 INFO  ---------------------------------------------------------------------------------------[0m
+[0m2021.08.25 16:23:57 INFO  |43.784049  |-79.128794  |43.66493975822026  |-79.3754006905373  |23.835112878779597  |[0m
+[0m2021.08.25 16:23:57 INFO  ---------------------------------------------------------------------------------------[0m
+[0m2021.08.25 16:23:57 INFO  [0m
+[0m2021.08.25 16:23:57 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-a061-002a-49030052eda6]  SELECT count(1) AS "COUNT(LITERAL())" FROM ( SELECT  *  FROM (trips)) LIMIT 1[0m
+[0m2021.08.25 16:23:57 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-9ffe-002a-49030052f112] alter session set query_tag = 'com.snowflake.snowpark.DataFrame.count[0m
+[0m2021.08.25 16:23:57 INFO  Main$.main(Main.scala:66)'[0m
+[0m2021.08.25 16:23:57 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-a061-002a-49030052edaa] alter session unset query_tag[0m
+[0m2021.08.25 16:23:57 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-a061-002a-49030052edae] alter session unset query_tag[0m
+[0m2021.08.25 16:23:57 INFO  Trip Count: 118439021[0m
+[0m2021.08.25 16:23:57 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-9ffe-002a-49030052f11a] alter session set query_tag = 'com.snowflake.snowpark.DataFrame.count[0m
+[0m2021.08.25 16:23:57 INFO  Main$.main(Main.scala:66)'[0m
+[0m2021.08.25 16:23:58 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-9ffe-002a-49030052f11e]  SELECT count(1) AS "COUNT(LITERAL())" FROM ( SELECT  *  FROM (trips)) LIMIT 1[0m
+[0m2021.08.25 16:23:58 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-a061-002a-49030052edb6] alter session unset query_tag[0m
+[0m2021.08.25 16:23:58 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c7-0400-a061-002a-49030052edba] alter session unset query_tag[0m
+[0m2021.08.25 16:23:58 INFO  Trip Count: 118439021[0m
+[0m2021.08.25 16:23:58 INFO  Exception in thread "main" com.snowflake.snowpark.SnowparkClientException: Error Code: 0108, Error message: The DataFrame does not contain the column named END_STATION_ID.[0m
+[0m2021.08.25 16:23:58 INFO  	at com.snowflake.snowpark.internal.ErrorMessage$.createException(ErrorMessage.scala:266)[0m
+[0m2021.08.25 16:23:58 INFO  	at com.snowflake.snowpark.internal.ErrorMessage$.DF_CANNOT_RESOLVE_COLUMN_NAME(ErrorMessage.scala:137)[0m
+[0m2021.08.25 16:23:58 INFO  	at com.snowflake.snowpark.DataFrame.resolve(DataFrame.scala:2562)[0m
+[0m2021.08.25 16:23:58 INFO  	at com.snowflake.snowpark.DataFrame.col(DataFrame.scala:586)[0m
+[0m2021.08.25 16:23:58 INFO  	at com.snowflake.snowpark.DataFrame.apply(DataFrame.scala:574)[0m
+[0m2021.08.25 16:23:58 INFO  	at Main$.main(Main.scala:73)[0m
+[0m2021.08.25 16:23:58 INFO  	at Main.main(Main.scala)[0m
+[0m2021.08.25 16:23:58 INFO  Exception in thread "main" com.snowflake.snowpark.SnowparkClientException: Error Code: 0108, Error message: The DataFrame does not contain the column named END_STATION_ID.[0m
+[0m2021.08.25 16:23:58 INFO  	at com.snowflake.snowpark.internal.ErrorMessage$.createException(ErrorMessage.scala:266)[0m
+[0m2021.08.25 16:23:58 INFO  	at com.snowflake.snowpark.internal.ErrorMessage$.DF_CANNOT_RESOLVE_COLUMN_NAME(ErrorMessage.scala:137)[0m
+[0m2021.08.25 16:23:58 INFO  	at com.snowflake.snowpark.DataFrame.resolve(DataFrame.scala:2562)[0m
+[0m2021.08.25 16:23:58 INFO  	at com.snowflake.snowpark.DataFrame.col(DataFrame.scala:586)[0m
+[0m2021.08.25 16:23:58 INFO  	at com.snowflake.snowpark.DataFrame.apply(DataFrame.scala:574)[0m
+[0m2021.08.25 16:23:58 INFO  	at Main$.main(Main.scala:73)[0m
+[0m2021.08.25 16:23:58 INFO  	at Main.main(Main.scala)[0m
+[0m2021.08.25 16:24:00 INFO  Canceling debug proxy for [Main][0m
+[0m2021.08.25 16:24:00 INFO  Canceling debug proxy for [Main][0m
+[0m2021.08.25 16:25:13 INFO  compiling hello-snowpark (1 scala source)[0m
+[0m2021.08.25 16:25:13 INFO  time: compiled hello-snowpark in 0.9s[0m
+[0m2021.08.25 16:25:23 INFO  Deduplicating compilation of hello-snowpark from bsp client 'Metals 0.10.5' (since 52m 54.011s)[0m
+[0m2021.08.25 16:25:25 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mwies/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+[0m2021.08.25 16:25:25 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mwies/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+[0m2021.08.25 16:25:25 INFO  Starting debug proxy for [Main][0m
+[0m2021.08.25 16:25:25 INFO  Listening for transport dt_socket at address: 52449[0m
+[0m2021.08.25 16:25:25 INFO  Trying to attach to remote debuggee VM localhost:52449 .[0m
+[0m2021.08.25 16:25:25 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.08.25 16:25:25 ERROR [main] INFO com.snowflake.snowpark.Session - Closing stderr and redirecting to stdout[0m
+[0m2021.08.25 16:25:25 INFO  [main] INFO com.snowflake.snowpark.Session - Done closing stderr and redirecting to stdout[0m
+[0m2021.08.25 16:25:28 INFO  [main] INFO com.snowflake.snowpark.Session - Snowpark Session information: {[0m
+[0m2021.08.25 16:25:28 INFO   "snowpark.version" : "0.8.0",[0m
+[0m2021.08.25 16:25:28 INFO   "java.version" : "11.0.11",[0m
+[0m2021.08.25 16:25:28 INFO   "scala.version" : "2.12.13",[0m
+[0m2021.08.25 16:25:28 INFO   "jdbc.session.id" : "11902226260748906",[0m
+[0m2021.08.25 16:25:28 INFO   "os.name" : "Mac OS X",[0m
+[0m2021.08.25 16:25:28 INFO   "jdbc.version" : "3.13.3",[0m
+[0m2021.08.25 16:25:28 INFO   "snowpark.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/snowflake/snowpark/0.8.0/snowpark-0.8.0.jar",[0m
+[0m2021.08.25 16:25:28 INFO   "scala.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar",[0m
+[0m2021.08.25 16:25:28 INFO   "jdbc.library" : "/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/snowflake/snowflake-jdbc/3.13.3/snowflake-jdbc-3.13.3.jar"[0m
+[0m2021.08.25 16:25:28 INFO  }[0m
+[0m2021.08.25 16:25:28 INFO  [main] INFO com.snowflake.snowpark.UDFRegistration - Automatically added /Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/snowflake/snowpark/0.8.0/snowpark-0.8.0.jar to session dependencies.[0m
+[0m2021.08.25 16:25:28 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c9-0400-a061-002a-49030052edce] create temporary stage if not exists "CITIBIKE"."DEMO".snowSession_11902226260748906[0m
+[0m2021.08.25 16:25:28 INFO  [main] INFO com.snowflake.snowpark.UDFRegistration - Adding /Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/.bloop/hello-snowpark/bloop-bsp-clients-classes/classes-Metals-fzfskF3rRT-E6x1Dmx3zmw== to session dependencies[0m
+[0m2021.08.25 16:25:28 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Actively querying parameter snowpark_lazy_analysis from server.[0m
+[0m2021.08.25 16:25:30 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Actively querying parameter QUERY_TAG from server.[0m
+[0m2021.08.25 16:25:30 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c9-0400-a061-002a-49030052edde] alter session set query_tag = 'com.snowflake.snowpark.functions$.udf[0m
+[0m2021.08.25 16:25:30 INFO  Main$.main(Main.scala:46)'[0m
+[0m2021.08.25 16:25:30 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c9-0400-9ffe-002a-49030052f13a] ls @"CITIBIKE"."DEMO".snowSession_11902226260748906[0m
+[0m2021.08.25 16:25:30 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c9-0400-9ffe-002a-49030052f13e]  SELECT "name" FROM ( SELECT  *  FROM  TABLE ( RESULT_SCAN('019e82c9-0400-9ffe-002a-49030052f13a')))[0m
+[0m2021.08.25 16:25:30 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c9-0400-a061-002a-49030052ede2] alter session unset query_tag[0m
+[0m2021.08.25 16:25:30 INFO  [snowpark-9] INFO com.snowflake.snowpark.internal.Utils - Uploading file file:/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/snowflake/snowpark/0.8.0/snowpark-0.8.0.jar to stage @"CITIBIKE"."DEMO".snowSession_11902226260748906[0m
+[0m2021.08.25 16:25:30 INFO  [snowpark-2] INFO com.snowflake.snowpark.internal.Utils - Uploading UDF jar to stage @"CITIBIKE"."DEMO".snowSession_11902226260748906[0m
+[0m2021.08.25 16:25:30 INFO  [snowpark-2] INFO com.snowflake.snowpark.UDFRegistration - Adding directory /Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/.bloop/hello-snowpark/bloop-bsp-clients-classes/classes-Metals-fzfskF3rRT-E6x1Dmx3zmw== to UDF jar[0m
+[0m2021.08.25 16:25:32 INFO  [snowpark-2] INFO com.snowflake.snowpark.internal.Utils - Finished Uploading UDF jar to stage @"CITIBIKE"."DEMO".snowSession_11902226260748906 in 1324 ms[0m
+[0m2021.08.25 16:25:32 INFO  [snowpark-9] INFO com.snowflake.snowpark.internal.Utils - Finished Uploading file file:/Users/mwies/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/snowflake/snowpark/0.8.0/snowpark-0.8.0.jar to stage @"CITIBIKE"."DEMO".snowSession_11902226260748906 in 2327 ms[0m
+[0m2021.08.25 16:25:34 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c9-0400-a061-002a-49030052edea] CREATE TEMPORARY FUNCTION "CITIBIKE"."DEMO".tempUDF_288760014(arg1 STRING) RETURNS STRING LANGUAGE JAVA IMPORTS = ('@"CITIBIKE"."DEMO".snowSession_11902226260748906/394856b810ecc26e716478d558c3496e/snowpark-0.8.0.jar','@"CITIBIKE"."DEMO".snowSession_11902226260748906/CITIBIKEDEMOtempUDF_288760014_1465191281/udfJar_450086485_closure.jar') HANDLER='SnowUDF.compute' target_path='@"CITIBIKE"."DEMO".snowSession_11902226260748906/CITIBIKEDEMOtempUDF_288760014_1465191281/udfJar_450086485.jar' AS $$ [0m
+[0m2021.08.25 16:25:34 INFO  [0m
+[0m2021.08.25 16:25:34 INFO  import com.snowflake.snowpark.internal.JavaUtils;[0m
+[0m2021.08.25 16:25:34 INFO  import com.snowflake.snowpark.types.Geography;[0m
+[0m2021.08.25 16:25:34 INFO  import com.snowflake.snowpark.types.Variant;[0m
+[0m2021.08.25 16:25:34 INFO  import scala.collection.JavaConverters;[0m
+[0m2021.08.25 16:25:34 INFO  [0m
+[0m2021.08.25 16:25:34 INFO  public class SnowUDF {[0m
+[0m2021.08.25 16:25:34 INFO    private static scala.Function1<java.lang.String,java.lang.String> funcImpl = null;[0m
+[0m2021.08.25 16:25:34 INFO    static {[0m
+[0m2021.08.25 16:25:34 INFO      byte[] closure = { -84,-19,0,5,115,114,0,33,106,97,118,97,46,108,97,110,103,46,105,110,118,111,107,101,46,83,101,114,105,97,108,105,122,101,100,76,97,109,98,100,97,111,97,-48,-108,44,41,54,-123,2,0,10,73,0,14,105,109,112,108,77,101,116,104,111,100,75,105,110,100,91,0,12,99,97,112,116,117,114,101,100,65,114,103,115,116,0,19,91,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,0,14,99,97,112,116,117,114,105,110,103,67,108,97,115,115,116,0,17,76,106,97,118,97,47,108,97,110,103,47,67,108,97,115,115,59,76,0,24,102,117,110,99,116,105,111,110,97,108,73,110,116,101,114,102,97,99,101,67,108,97,115,115,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,76,0,29,102,117,110,99,116,105,111,110,97,108,73,110,116,101,114,102,97,99,101,77,101,116,104,111,100,78,97,109,101,113,0,126,0,3,76,0,34,102,117,110,99,116,105,111,110,97,108,73,110,116,101,114,102,97,99,101,77,101,116,104,111,100,83,105,103,110,97,116,117,114,101,113,0,126,0,3,76,0,9,105,109,112,108,67,108,97,115,115,113,0,126,0,3,76,0,14,105,109,112,108,77,101,116,104,111,100,78,97,109,101,113,0,126,0,3,76,0,19,105,109,112,108,77,101,116,104,111,100,83,105,103,110,97,116,117,114,101,113,0,126,0,3,76,0,22,105,110,115,116,97,110,116,105,97,116,101,100,77,101,116,104,111,100,84,121,112,101,113,0,126,0,3,120,112,0,0,0,6,117,114,0,19,91,76,106,97,118,97,46,108,97,110,103,46,79,98,106,101,99,116,59,-112,-50,88,-97,16,115,41,108,2,0,0,120,112,0,0,0,0,118,114,0,7,85,68,70,67,111,100,101,110,-19,-44,-7,99,-119,-40,8,2,0,1,76,0,18,97,112,112,101,110,100,76,97,115,116,78,97,109,101,70,117,110,99,116,0,17,76,115,99,97,108,97,47,70,117,110,99,116,105,111,110,49,59,120,112,116,0,15,115,99,97,108,97,47,70,117,110,99,116,105,111,110,49,116,0,5,97,112,112,108,121,116,0,38,40,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,41,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,116,0,7,85,68,70,67,111,100,101,116,0,29,36,97,110,111,110,102,117,110,36,97,112,112,101,110,100,76,97,115,116,78,97,109,101,70,117,110,99,36,49,116,0,38,40,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,41,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,113,0,126,0,15 };[0m
+[0m2021.08.25 16:25:34 INFO      funcImpl = (scala.Function1<java.lang.String,java.lang.String>) JavaUtils.deserialize(closure);[0m
+[0m2021.08.25 16:25:34 INFO     }[0m
+[0m2021.08.25 16:25:34 INFO    public static java.lang.String compute(java.lang.String arg1) {[0m
+[0m2021.08.25 16:25:34 INFO        return funcImpl.apply(arg1);[0m
+[0m2021.08.25 16:25:34 INFO    }[0m
+[0m2021.08.25 16:25:34 INFO  }[0m
+[0m2021.08.25 16:25:34 INFO          [0m
+[0m2021.08.25 16:25:34 INFO  $$[0m
+[0m2021.08.25 16:25:36 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c9-0400-a061-002a-49030052edf2]  SELECT  *  FROM ( SELECT "NAME", "CITIBIKE"."DEMO".tempUDF_288760014("NAME") AS "Full Name" FROM (select 'Raymond' NAME)) LIMIT 10[0m
+[0m2021.08.25 16:25:36 INFO  -----------------------------[0m
+[0m2021.08.25 16:25:36 INFO  |"NAME"   |"Full Name"      |[0m
+[0m2021.08.25 16:25:36 INFO  -----------------------------[0m
+[0m2021.08.25 16:25:36 INFO  |Raymond  |Raymond Johnson  |[0m
+[0m2021.08.25 16:25:36 INFO  -----------------------------[0m
+[0m2021.08.25 16:25:36 INFO  [0m
+[0m2021.08.25 16:25:36 INFO  [main] INFO com.snowflake.snowpark.UDFRegistration - Adding /Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/.bloop/hello-snowpark/bloop-bsp-clients-classes/classes-Metals-fzfskF3rRT-E6x1Dmx3zmw== to session dependencies[0m
+[0m2021.08.25 16:25:36 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c9-0400-9ffe-002a-49030052f14a] alter session set query_tag = 'com.snowflake.snowpark.functions$.udf[0m
+[0m2021.08.25 16:25:36 INFO  Main$.main(Main.scala:54)'[0m
+[0m2021.08.25 16:25:36 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c9-0400-9ffe-002a-49030052f14e] ls @"CITIBIKE"."DEMO".snowSession_11902226260748906[0m
+[0m2021.08.25 16:25:36 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c9-0400-9ffe-002a-49030052f152]  SELECT "name" FROM ( SELECT  *  FROM  TABLE ( RESULT_SCAN('019e82c9-0400-9ffe-002a-49030052f14e')))[0m
+[0m2021.08.25 16:25:36 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c9-0400-a061-002a-49030052edf6] alter session unset query_tag[0m
+[0m2021.08.25 16:25:36 INFO  [snowpark-9] INFO com.snowflake.snowpark.Session - 394856b810ecc26e716478d558c3496e/snowpark-0.8.0.jar exists on @"CITIBIKE"."DEMO".snowSession_11902226260748906, skipped[0m
+[0m2021.08.25 16:25:36 INFO  [snowpark-9] INFO com.snowflake.snowpark.internal.Utils - Uploading UDF jar to stage @"CITIBIKE"."DEMO".snowSession_11902226260748906[0m
+[0m2021.08.25 16:25:36 INFO  [snowpark-9] INFO com.snowflake.snowpark.UDFRegistration - Adding directory /Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/.bloop/hello-snowpark/bloop-bsp-clients-classes/classes-Metals-fzfskF3rRT-E6x1Dmx3zmw== to UDF jar[0m
+[0m2021.08.25 16:25:38 INFO  [snowpark-9] INFO com.snowflake.snowpark.internal.Utils - Finished Uploading UDF jar to stage @"CITIBIKE"."DEMO".snowSession_11902226260748906 in 885 ms[0m
+[0m2021.08.25 16:25:39 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c9-0400-9ffe-002a-49030052f15a] CREATE TEMPORARY FUNCTION "CITIBIKE"."DEMO".tempUDF_1888792795(arg1 DOUBLE,arg2 DOUBLE,arg3 DOUBLE,arg4 DOUBLE) RETURNS DOUBLE LANGUAGE JAVA IMPORTS = ('@"CITIBIKE"."DEMO".snowSession_11902226260748906/394856b810ecc26e716478d558c3496e/snowpark-0.8.0.jar','@"CITIBIKE"."DEMO".snowSession_11902226260748906/CITIBIKEDEMOtempUDF_1888792795_702686963/udfJar_1602581513_closure.jar') HANDLER='SnowUDF.compute' target_path='@"CITIBIKE"."DEMO".snowSession_11902226260748906/CITIBIKEDEMOtempUDF_1888792795_702686963/udfJar_1602581513.jar' AS $$ [0m
+[0m2021.08.25 16:25:39 INFO  [0m
+[0m2021.08.25 16:25:39 INFO  import com.snowflake.snowpark.internal.JavaUtils;[0m
+[0m2021.08.25 16:25:39 INFO  import com.snowflake.snowpark.types.Geography;[0m
+[0m2021.08.25 16:25:39 INFO  import com.snowflake.snowpark.types.Variant;[0m
+[0m2021.08.25 16:25:39 INFO  import scala.collection.JavaConverters;[0m
+[0m2021.08.25 16:25:39 INFO  [0m
+[0m2021.08.25 16:25:39 INFO  public class SnowUDF {[0m
+[0m2021.08.25 16:25:39 INFO    private static scala.Function4<java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double> funcImpl = null;[0m
+[0m2021.08.25 16:25:39 INFO    static {[0m
+[0m2021.08.25 16:25:39 INFO      byte[] closure = { -84,-19,0,5,115,114,0,33,106,97,118,97,46,108,97,110,103,46,105,110,118,111,107,101,46,83,101,114,105,97,108,105,122,101,100,76,97,109,98,100,97,111,97,-48,-108,44,41,54,-123,2,0,10,73,0,14,105,109,112,108,77,101,116,104,111,100,75,105,110,100,91,0,12,99,97,112,116,117,114,101,100,65,114,103,115,116,0,19,91,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,0,14,99,97,112,116,117,114,105,110,103,67,108,97,115,115,116,0,17,76,106,97,118,97,47,108,97,110,103,47,67,108,97,115,115,59,76,0,24,102,117,110,99,116,105,111,110,97,108,73,110,116,101,114,102,97,99,101,67,108,97,115,115,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,76,0,29,102,117,110,99,116,105,111,110,97,108,73,110,116,101,114,102,97,99,101,77,101,116,104,111,100,78,97,109,101,113,0,126,0,3,76,0,34,102,117,110,99,116,105,111,110,97,108,73,110,116,101,114,102,97,99,101,77,101,116,104,111,100,83,105,103,110,97,116,117,114,101,113,0,126,0,3,76,0,9,105,109,112,108,67,108,97,115,115,113,0,126,0,3,76,0,14,105,109,112,108,77,101,116,104,111,100,78,97,109,101,113,0,126,0,3,76,0,19,105,109,112,108,77,101,116,104,111,100,83,105,103,110,97,116,117,114,101,113,0,126,0,3,76,0,22,105,110,115,116,97,110,116,105,97,116,101,100,77,101,116,104,111,100,84,121,112,101,113,0,126,0,3,120,112,0,0,0,6,117,114,0,19,91,76,106,97,118,97,46,108,97,110,103,46,79,98,106,101,99,116,59,-112,-50,88,-97,16,115,41,108,2,0,0,120,112,0,0,0,1,115,114,0,22,68,105,115,116,97,110,99,101,67,97,108,99,117,108,97,116,111,114,73,109,112,108,28,-74,-17,-13,86,36,-10,16,2,0,1,73,0,26,65,86,69,82,65,71,69,95,82,65,68,73,85,83,95,79,70,95,69,65,82,84,72,95,75,77,120,112,0,0,24,-29,118,114,0,5,77,97,105,110,36,0,0,0,0,0,0,0,0,0,0,0,120,112,116,0,15,115,99,97,108,97,47,70,117,110,99,116,105,111,110,52,116,0,5,97,112,112,108,121,116,0,92,40,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,41,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,116,0,5,77,97,105,110,36,116,0,23,36,97,110,111,110,102,117,110,36,109,97,105,110,36,49,36,97,100,97,112,116,101,100,116,0,116,40,76,68,105,115,116,97,110,99,101,67,97,108,99,117,108,97,116,111,114,73,109,112,108,59,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,41,76,106,97,118,97,47,108,97,110,103,47,79,98,106,101,99,116,59,113,0,126,0,13 };[0m
+[0m2021.08.25 16:25:39 INFO      funcImpl = (scala.Function4<java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double>) JavaUtils.deserialize(closure);[0m
+[0m2021.08.25 16:25:39 INFO     }[0m
+[0m2021.08.25 16:25:39 INFO    public static java.lang.Double compute(java.lang.Double arg1,java.lang.Double arg2,java.lang.Double arg3,java.lang.Double arg4) {[0m
+[0m2021.08.25 16:25:39 INFO        return funcImpl.apply(arg1,arg2,arg3,arg4);[0m
+[0m2021.08.25 16:25:39 INFO    }[0m
+[0m2021.08.25 16:25:39 INFO  }[0m
+[0m2021.08.25 16:25:39 INFO          [0m
+[0m2021.08.25 16:25:39 INFO  $$[0m
+[0m2021.08.25 16:25:41 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c9-0400-a061-002a-49030052edfa]  SELECT  *  FROM ( SELECT "LAT1", "LON1", "LAT2", "LON2", "CITIBIKE"."DEMO".tempUDF_1888792795("LAT1", "LON1", "LAT2", "LON2") AS "DIST_KM" FROM (select 43.784049 LAT1,-79.128794 LON1,43.66493975822026 LAT2,-79.3754006905373 LON2)) LIMIT 10[0m
+[0m2021.08.25 16:25:41 INFO  ---------------------------------------------------------------------------------------[0m
+[0m2021.08.25 16:25:41 INFO  |"LAT1"     |"LON1"      |"LAT2"             |"LON2"             |"DIST_KM"           |[0m
+[0m2021.08.25 16:25:41 INFO  ---------------------------------------------------------------------------------------[0m
+[0m2021.08.25 16:25:41 INFO  |43.784049  |-79.128794  |43.66493975822026  |-79.3754006905373  |23.835112878779597  |[0m
+[0m2021.08.25 16:25:41 INFO  ---------------------------------------------------------------------------------------[0m
+[0m2021.08.25 16:25:41 INFO  [0m
+[0m2021.08.25 16:25:41 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c9-0400-9ffe-002a-49030052f162] alter session set query_tag = 'com.snowflake.snowpark.DataFrame.count[0m
+[0m2021.08.25 16:25:41 INFO  Main$.main(Main.scala:66)'[0m
+[0m2021.08.25 16:25:41 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c9-0400-9ffe-002a-49030052f16a] alter session set query_tag = 'com.snowflake.snowpark.DataFrame.count[0m
+[0m2021.08.25 16:25:41 INFO  Main$.main(Main.scala:66)'[0m
+[0m2021.08.25 16:25:41 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c9-0400-a061-002a-49030052edfe]  SELECT count(1) AS "COUNT(LITERAL())" FROM ( SELECT  *  FROM (trips)) LIMIT 1[0m
+[0m2021.08.25 16:25:41 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c9-0400-a061-002a-49030052ee02] alter session unset query_tag[0m
+[0m2021.08.25 16:25:41 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c9-0400-9ffe-002a-49030052f16e] alter session unset query_tag[0m
+[0m2021.08.25 16:25:41 INFO  Trip Count: 118439021[0m
+[0m2021.08.25 16:27:04 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82c9-0400-9ffe-002a-49030052f17a]  CREATE  OR  REPLACE  TABLE trips_distances AS  SELECT  *  FROM ( SELECT "TRIPDURATION", "START_STATION_ID", "END_STATION_ID", "START_STATION_LAT", "START_STATION_LON", "END_STATION_LAT", "END_STATION_LON", "CITIBIKE"."DEMO".tempUDF_1888792795("START_STATION_LAT", "START_STATION_LON", "END_STATION_LAT", "END_STATION_LON") AS "DIST_KM" FROM ( SELECT "TRIPDURATION", "START_STATION_ID", "END_STATION_ID", "START_STATION_LAT", "START_STATION_LON", "STATION_LAT" AS "END_STATION_LAT", "STATION_LON" AS "END_STATION_LON" FROM ( SELECT  *  FROM (( SELECT "TRIPDURATION" AS "TRIPDURATION", "START_STATION_ID" AS "START_STATION_ID", "END_STATION_ID" AS "END_STATION_ID", "START_STATION_LAT" AS "START_STATION_LAT", "START_STATION_LON" AS "START_STATION_LON" FROM ( SELECT "TRIPDURATION", "START_STATION_ID", "END_STATION_ID", "STATION_LAT" AS "START_STATION_LAT", "STATION_LON" AS "START_STATION_LON" FROM ( SELECT  *  FROM (( SELECT "TRIPDURATION" AS "TRIPDURATION", "STARTTIME" AS "STARTTIME", "STOPTIME" AS "STOPTIME", "START_STATION_ID" AS "START_STATION_ID", "END_STATION_ID" AS "END_STATION_ID", "BIKEID" AS "BIKEID", "USERTYPE" AS "USERTYPE", "BIRTH_YEAR" AS "BIRTH_YEAR", "GENDER" AS "GENDER" FROM ( SELECT  *  FROM (trips))) AS SN_TEMP_OBJECT_110832618 INNER JOIN ( SELECT "STATION_ID" AS "STATION_ID", "STATION_NAME" AS "STATION_NAME", "NEIGHBORHOOD_NAME" AS "NEIGHBORHOOD_NAME", "BOROUGH_NAME" AS "BOROUGH_NAME", "REGION_NAME" AS "REGION_NAME", "STATION_CAPACITY" AS "STATION_CAPACITY", "STATION_LAT" AS "STATION_LAT", "STATION_LON" AS "STATION_LON", "STATION_GEO" AS "STATION_GEO" FROM ( SELECT  *  FROM (stations_vw))) AS SN_TEMP_OBJECT_402749756 ON ("START_STATION_ID" = "STATION_ID"))))) AS SN_TEMP_OBJECT_1069555332 INNER JOIN ( SELECT "STATION_ID" AS "STATION_ID", "STATION_NAME" AS "STATION_NAME", "NEIGHBORHOOD_NAME" AS "NEIGHBORHOOD_NAME", "BOROUGH_NAME" AS "BOROUGH_NAME", "REGION_NAME" AS "REGION_NAME", "STATION_CAPACITY" AS "STATION_CAPACITY", "STATION_LAT" AS "STATION_LAT", "STATION_LON" AS "STATION_LON", "STATION_GEO" AS "STATION_GEO" FROM ( SELECT  *  FROM (stations_vw))) AS SN_TEMP_OBJECT_1805036867 ON ("END_STATION_ID" = "STATION_ID")))))[0m
+[0m2021.08.25 16:27:07 INFO  [main] INFO com.snowflake.snowpark.internal.ServerConnection - Execute query [queryID: 019e82cb-0400-9ffe-002a-49030052f186]  SELECT  *  FROM ( SELECT  *  FROM ( SELECT  *  FROM (trips_distances)) LIMIT 10) LIMIT 10[0m
+[0m2021.08.25 16:27:07 INFO  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[0m2021.08.25 16:27:07 INFO  |"TRIPDURATION"  |"START_STATION_ID"  |"END_STATION_ID"  |"START_STATION_LAT"  |"START_STATION_LON"  |"END_STATION_LAT"   |"END_STATION_LON"   |"DIST_KM"           |[0m
+[0m2021.08.25 16:27:07 INFO  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[0m2021.08.25 16:27:07 INFO  |263             |3109                |3092              |40.72606             |-73.95621            |40.7190095          |-73.95852515        |0.8078919732358544  |[0m
+[0m2021.08.25 16:27:07 INFO  |223             |3109                |3092              |40.72606             |-73.95621            |40.7190095          |-73.95852515        |0.8078919732358544  |[0m
+[0m2021.08.25 16:27:07 INFO  |1543            |3109                |497               |40.72606             |-73.95621            |40.73704984         |-73.99009296        |3.105537615488289   |[0m
+[0m2021.08.25 16:27:07 INFO  |280             |3109                |3092              |40.72606             |-73.95621            |40.7190095          |-73.95852515        |0.8078919732358544  |[0m
+[0m2021.08.25 16:27:07 INFO  |1428            |3109                |347               |40.72606             |-73.95621            |40.728846           |-74.008591          |4.424791920679382   |[0m
+[0m2021.08.25 16:27:07 INFO  |1544            |3109                |3232              |40.72606             |-73.95621            |40.68962188790333   |-73.98304268717766  |4.640263409353594   |[0m
+[0m2021.08.25 16:27:07 INFO  |268             |3109                |3092              |40.72606             |-73.95621            |40.7190095          |-73.95852515        |0.8078919732358544  |[0m
+[0m2021.08.25 16:27:07 INFO  |302             |3109                |3092              |40.72606             |-73.95621            |40.7190095          |-73.95852515        |0.8078919732358544  |[0m
+[0m2021.08.25 16:27:07 INFO  |1287            |3109                |3440              |40.72606             |-73.95621            |40.692418292578466  |-73.98949474096298  |4.675952148169664   |[0m
+[0m2021.08.25 16:27:07 INFO  |151             |3109                |3101              |40.72606             |-73.95621            |40.72079821         |-73.95484712        |0.5962503861485933  |[0m
+[0m2021.08.25 16:27:07 INFO  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[0m2021.08.25 16:27:07 INFO  [0m
+[0m2021.08.25 16:27:07 INFO  Canceling debug proxy for [Main][0m
+[0m2021.08.25 16:30:18 INFO  compiling hello-snowpark (1 scala source)[0m
+[0m2021.08.25 16:30:19 INFO  time: compiled hello-snowpark in 1.1s[0m
+[0m2021.08.25 16:32:48 INFO  compiling hello-snowpark (1 scala source)[0m
+[0m2021.08.25 16:32:48 INFO  time: compiled hello-snowpark in 0.88s[0m
+[0m2021.08.25 16:33:02 INFO  compiling hello-snowpark (1 scala source)[0m
+[0m2021.08.25 16:33:03 INFO  time: compiled hello-snowpark in 1.1s[0m
+Aug 25, 2021 4:33:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2661
+[0m2021.08.25 16:33:32 INFO  shutting down Metals[0m
+[0m2021.08.25 16:33:32 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.08.25 16:33:32 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...

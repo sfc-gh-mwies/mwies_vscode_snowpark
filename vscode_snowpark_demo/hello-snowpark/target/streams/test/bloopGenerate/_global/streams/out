@@ -1,0 +1,4 @@
+[debug] [hello-snowpark-test] Classpath dependencies List()
+[debug] [hello-snowpark-test] Dependencies from configurations List(hello-snowpark)
+[debug] Bloop wrote the configuration of project 'hello-snowpark-test' to '/Users/mwies/Projects/vscode_snowpark_demo/hello-snowpark/.bloop/hello-snowpark-test.json'
+[success] Generated .bloop/hello-snowpark-test.json
