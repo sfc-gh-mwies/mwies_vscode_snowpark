@@ -18,5 +18,5 @@
 ***
 ## How to Use This Repo
 #### 1. Follow the VSCode environment setup instructions above
-#### 2. Copy the code from /vscode_snowpakr_demo/hello-snowpark/src/main/scala/Main.scala
+#### 2. Copy the code from /vscode_snowpakr_demo/hello-snowpark/src/main/scala/Main.scala into your Main.scala file
 #### 3. Update the connection details to match your Snowflake account and user
